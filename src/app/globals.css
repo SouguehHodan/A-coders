@@ -1,107 +1,233 @@
-:root {
-  --max-width: 1100px;
-  --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
-    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
-    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
-
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-
-  --primary-glow: conic-gradient(
-    from 180deg at 50% 50%,
-    #16abff33 0deg,
-    #0885ff33 55deg,
-    #54d6ff33 120deg,
-    #0071ff33 160deg,
-    transparent 360deg
-  );
-  --secondary-glow: radial-gradient(
-    rgba(255, 255, 255, 1),
-    rgba(255, 255, 255, 0)
-  );
-
-  --tile-start-rgb: 239, 245, 249;
-  --tile-end-rgb: 228, 232, 233;
-  --tile-border: conic-gradient(
-    #00000080,
-    #00000040,
-    #00000030,
-    #00000020,
-    #00000010,
-    #00000010,
-    #00000080
-  );
-
-  --callout-rgb: 238, 240, 241;
-  --callout-border-rgb: 172, 175, 176;
-  --card-rgb: 180, 185, 188;
-  --card-border-rgb: 131, 134, 135;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-
-    --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
-    --secondary-glow: linear-gradient(
-      to bottom right,
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0.3)
-    );
-
-    --tile-start-rgb: 2, 13, 46;
-    --tile-end-rgb: 2, 5, 19;
-    --tile-border: conic-gradient(
-      #ffffff80,
-      #ffffff40,
-      #ffffff30,
-      #ffffff20,
-      #ffffff10,
-      #ffffff10,
-      #ffffff80
-    );
-
-    --callout-rgb: 20, 20, 20;
-    --callout-border-rgb: 108, 108, 108;
-    --card-rgb: 100, 100, 100;
-    --card-border-rgb: 200, 200, 200;
-  }
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
+*{
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: none;
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
+/* nav */
+.nav-res{
+  width: 90%;
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#btn{
+ 
+  border-radius: 0;
+  width: 15%;
+}
+.accueil-img{
+  width: 100%;
+  height: 100vh;
+  /* background-image:url(../../public/couverture.jpg); */
+  background-image:linear-gradient(rgba(68, 85, 138, 0.6),rgba(52, 57, 111, 0.9)),url(../../public/accueil1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom-left-radius: 12%;
+  border-bottom-right-radius: 12%;
+}
+.btn1{
+  background-color: RED;
+  border-radius: 0;
+  width: 20%;
+  height: 45px;
+}
+#accueil{
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  text-align: center;
+}
+#accueil h1{
+  width: 73%;
+}
+#accueil p{
+  width: 53%;
+  margin-left: 9%;
+}
+.acc-colo{
+  color: red;
+}
+.button2{
+  margin-right: 25%;
+  margin-top: 15px;
+}
+.button2 button{
+  width: 30%;
+  border-radius: 0;
+} 
+.partie2{
+  width: 100%;
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.section1{
+  position: relative;
+}
+.section-img{
+  position: absolute;
+  left: 45vh;
+  top: 8vh;
+}
+.section2{
+  width: 50%;
+  margin-left: 15%;
+}
+.section2{
+  font-size: 1rem;
+}
+.title2{
+  width: 33rem;
+  font-size: 13px;
+  padding-left: 10PX;
+  border-left: 2px solid red;
+}
+.section3{
+  margin-top: 15%;
+  height: 140VH;
+  padding: 8%;
+  background-color: rgb(239, 234, 226);
+}
+.section3 h3{
+  width: 55%;
+  margin-left: 25%;
+  margin-bottom: 8%;
+  text-align: center;
+}
+.section3-1{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgba(25, 64, 181, 0.6); */
+}
+.section3-2{
+  display: flex;
+  flex-direction: row;
+  /* background-color: rgba(25, 64, 181, 0.6); */
+}
+.section3-3{
+  height: 38VH;
+  width: 50VH;
+  padding: 15PX;
+  background-color: white;
+  border-radius: 10PX;
+  margin: 20px;
+}
+.section3-3 p{
+  font-size: 13PX;
+}
+.section3-3 h5{
+  color: RED;
+}
+.icon{
+  font-size: 35PX;
+  font-weight: bold;
+  color: red;
+}
+.Partie-2{
+  height: 130vh;
+  padding-top: 10%;
+  margin-left: 8%;
+}
+.Partie-2 h2{
+  width: 55%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 8%;
+}
+.part2{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.part2-1{
+  width: 23%;
+  height: 70vh;
+  text-align: center;
+  border: 1px solid black;
+}
+.fonction{
+  color: red;
+  font-size: 15PX;
+}
+.Partie-3{
+  height: 150vh;
+  background-color: wheat;
+}
+.Partie-3 h2{
+  padding-top: 10%;
+}
+.partie3{
+  width: 100%;
+  padding: 8%;
+  display: flex;
+  flex-direction: column;
+
+}
+.partie3-1{
+  display: flex;
+  flex-direction: row;
+}
+.partie3-2{
+  height: 38VH;
+  width: 50VH;
+  background-color: white;
+  margin: 20px;
+}
+.Partie-4{
+  padding-top: 15%;
+  height: 120vh;
+}
+.partie4{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.partie4-1{
+  width: 50%;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+/* contact */
+
+#acc-conc{
+  margin-top: 10%;
+}
+.acc-conc{
+  width: 45%;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+.acc-conc h3{
+  color: var(--b-button);
+}
+.acc-conc1{
+  width: 60%;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+/* propos */
+.propos-img{
+  width: 100%;
+  height: 90vh;
+  /* background-image:url(../../public/couverture.jpg); */
+  background-image:linear-gradient(rgba(68, 85, 138, 0.6),rgba(52, 57, 111, 0.9)),url(../../public/accueil1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+#propos{
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  text-align: center;
+  width: 55%;
+}
+.img-propos{
+  position: relative;
+}
+.img-propos1 {
+  position: relative;
 }
