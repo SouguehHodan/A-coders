@@ -71,8 +71,8 @@
 }
 .section-img{
   position: absolute;
-  left: 45vh;
-  top: 8vh;
+  left: 30vh;
+  top: 3vh;
 }
 .section2{
   width: 50%;
@@ -111,7 +111,7 @@
   /* background-color: rgba(25, 64, 181, 0.6); */
 }
 .section3-3{
-  height: 38VH;
+  height: 28VH;
   width: 50VH;
   padding: 15PX;
   background-color: white;
@@ -147,7 +147,7 @@
 }
 .part2-1{
   width: 23%;
-  height: 70vh;
+  height: 60vh;
   text-align: center;
   border: 1px solid black;
 }

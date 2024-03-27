@@ -34,24 +34,24 @@ export default function Home() {
       <div className="section">
         <div className="section1">
           <Image
-            src="/accueil3.jpg"
-            width={250}
-            height={200}
+            src="/accueil1.jpg"
+            width={260}
+            height={220}
             className="mb-3"
             alt="c'est moi"
           />
           <br/>
           <Image
             src="/accueil2.jpeg"
-            width={250}
-            height={200}
+            width={260}
+            height={220}
             className="img1"
             alt="c'est moi"
           />
           <Image
               src="/accueil4.jpeg"
-              width={200}
-              height={350}
+              width={280}
+              height={390}
               className="section-img"
               alt="c'est moi"
             />
@@ -344,7 +344,9 @@ export default function Home() {
             </div>
           </div>
       </div>
-      <Formulaire isVisible={isNavbarVisible} />
+      <div className="w-50">
+        <Formulaire isVisible={isNavbarVisible} />
+      </div>
     </div>
     <Footer isVisible={isNavbarVisible} />
     </section>
