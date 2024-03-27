@@ -211,6 +211,7 @@
 
 /* propos */
 .propos-img{
+  margin-bottom: 15%;
   width: 100%;
   height: 90vh;
   /* background-image:url(../../public/couverture.jpg); */
@@ -225,9 +226,18 @@
   text-align: center;
   width: 55%;
 }
+#propos p{
+  width: 70%;
+}
 .img-propos{
   position: relative;
+  margin-left: 15%;
 }
 .img-propos1 {
-  position: relative;
+  position: absolute;
+  top: 170vh;
+  left: 35vh;
+}
+.pro-sec2{
+  margin-top: 20%;
 }
