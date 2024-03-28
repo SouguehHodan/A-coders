@@ -34,24 +34,24 @@ export default function Home() {
       <div className="section">
         <div className="section1">
           <Image
-            src="/accueil3.jpg"
-            width={250}
-            height={200}
+            src="/accueil1.jpg"
+            width={260}
+            height={220}
             className="mb-3"
             alt="c'est moi"
           />
           <br/>
           <Image
             src="/accueil2.jpeg"
-            width={250}
-            height={200}
+            width={260}
+            height={220}
             className="img1"
             alt="c'est moi"
           />
           <Image
               src="/accueil4.jpeg"
-              width={200}
-              height={350}
+              width={280}
+              height={390}
               className="section-img"
               alt="c'est moi"
             />
@@ -142,9 +142,9 @@ export default function Home() {
       <div className="part2">
         <div className="part2-1">
           <Image
-            src="/perso1.jpg"
-            width={220}
-            height={250}
+            src="/perso1.JPG"
+            width={320}
+            height={350}
             className="ms-1 mb-5 mt-1"
             alt="c'est moi"
           />
@@ -155,9 +155,9 @@ export default function Home() {
         </div>
         <div className="part2-1">
           <Image
-            src="/perso1.jpg"
-            width={220}
-            height={250}
+            src="/perso1.JPG"
+            width={320}
+            height={350}
             className="ms-1 mb-5 mt-1"
             alt="c'est moi"
           />
@@ -168,9 +168,9 @@ export default function Home() {
         </div>
         <div className="part2-1">
           <Image
-            src="/perso2.jpg"
-            width={220}
-            height={250}
+            src="/perso2.JPG"
+            width={320}
+            height={350}
             className="ms-1 mb-5"
             alt="c'est moi"
           />
@@ -181,9 +181,9 @@ export default function Home() {
         </div>
         <div className="part2-1">
           <Image
-            src="/perso1.jpg"
-            width={220}
-            height={250}
+            src="/perso1.JPG"
+            width={320}
+            height={350}
             className="ms-1 mb-5 my-1"
             alt="c'est moi"
           />
@@ -232,7 +232,7 @@ export default function Home() {
       <h2>FAQ (FOIRE AUX QUESTIONS)</h2>
       <div className="partie4">
         <Image
-          src="/accueil5.jpg"
+          src="/accueil5.JPG"
           width={600}
           height={400}
           className="ms-5 me-5"
@@ -243,7 +243,7 @@ export default function Home() {
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                Accordion Item #1
+                Quels types de sites web pouvez-vous créer ?
               </button>
             </h2>
             <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
@@ -253,7 +253,7 @@ export default function Home() {
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                Accordion Item #2
+                Combien de temps faut-il pour créer un site web ?
               </button>
             </h2>
             <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
@@ -262,38 +262,38 @@ export default function Home() {
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                Accordion Item #2
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwoOne" aria-expanded="false" aria-controls="flush-collapseTwoOne">
+                Offrez-vous des services de maintenance après la création du site web ?
               </button>
             </h2>
-            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div id="flush-collapseTwoOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
               <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                Accordion Item #2
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwoTwo" aria-expanded="false" aria-controls="flush-collapseTwoTwo">
+              Comment puis-je obtenir un devis pour mon projet ?
               </button>
             </h2>
-            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div id="flush-collapseTwoTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
               <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                Accordion Item #2
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwoThree" aria-expanded="false" aria-controls="flush-collapseTwoThree">
+                Quels sont les modes de paiement acceptés ?
               </button>
             </h2>
-            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div id="flush-collapseTwoThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
               <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                Accordion Item #3
+                Comment puis-je suivre les progrès de mon projet pendant le développement du site web ?
               </button>
             </h2>
             <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
@@ -344,7 +344,9 @@ export default function Home() {
             </div>
           </div>
       </div>
-      <Formulaire isVisible={isNavbarVisible} />
+      <div className="w-50">
+        <Formulaire isVisible={isNavbarVisible} />
+      </div>
     </div>
     <Footer isVisible={isNavbarVisible} />
     </section>
