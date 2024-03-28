@@ -26,8 +26,7 @@
   background-image:linear-gradient(rgba(68, 85, 138, 0.6),rgba(52, 57, 111, 0.9)),url(../../public/accueil1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  border-bottom-left-radius: 12%;
-  border-bottom-right-radius: 12%;
+  clip-path: polygon(30% 0%, 100% 0, 100% 30%, 100% 94%, 81% 99%, 18% 99%, 0 94%, 0 0);
 }
 .btn1{
   background-color: RED;
