@@ -7,10 +7,7 @@ const Footer =({ isVisible }) => {
   
     return (
 <footer class="text-center text-lg-start bg-body-tertiary text-muted">
-  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-    <div class="me-5 d-none d-lg-block">
-      <span>Get connected with us on social networks:</span>
-    </div>
+  <section class="d-flex justify-content-center justify-content-lg-between">
     <div>
       <a href="" class="me-4 text-reset">
         <i class="fab fa-facebook-f"></i>
@@ -40,62 +37,62 @@ const Footer =({ isVisible }) => {
             <i class="fas fa-gem me-3"></i>Company name
           </h6>
           <p>
-            Here you can use rows and columns to organize your footer content. Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit.
+            À A-Coders, nous façonnons l'avenir du web, 
+            ligne de code par ligne de code. Joignez-vous à nous 
+            dans cette aventure vers l'innovation et l'excellence en ligne.
           </p>
         </div>
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
           <h6 class="text-uppercase fw-bold mb-4">
-            Products
+            Menu
           </h6>
           <p>
-            <a href="#!" class="text-reset">Angular</a>
+            <a href="#!" class="text-reset">Accueil</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">React</a>
+            <a href="#!" class="text-reset">A propos de nous</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Vue</a>
+            <a href="#!" class="text-reset">Service</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Laravel</a>
+            <a href="#!" class="text-reset">Portfolio</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Contact</a>
           </p>
         </div>
         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
           <h6 class="text-uppercase fw-bold mb-4">
-            Useful links
+            Service
           </h6>
           <p>
-            <a href="#!" class="text-reset">Pricing</a>
+            <a href="#!" class="text-reset">Developpent web</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Settings</a>
+            <a href="#!" class="text-reset">Locationdu site web</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Orders</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Help</a>
+            <a href="#!" class="text-reset">Maintenance du site web</a>
           </p>
         </div>
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
           <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p><i class="fas fa-home me-3"></i>+25377885799</p>
           <p>
             <i class="fas fa-envelope me-3"></i>
-            info@example.com
+            a-coders@gamil.com
           </p>
-          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          <p><i class="fas fa-phone me-3"></i>Avenue 26, Q5 ,Djibouti </p>
         </div>
       </div>
     </div>
   </section>
-  <div class="text-center p-4">
+  <div class="d-none d-lg-block p-4 border-top" id="footer">
     © 2021 Copyright:
     <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    <span>Créé avec passion par A-coders.</span>
   </div>
-
 </footer>
 
 
