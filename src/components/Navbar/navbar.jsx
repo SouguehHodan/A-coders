@@ -36,6 +36,9 @@ const Navbar =({ isVisible }) => {
                             <a className="nav-link text-white" href="/service">Service</a>
                         </li>
                         <li className="nav-item">
+                            <a className="nav-link text-white" href="/portfolio">Portfolio</a>
+                        </li>
+                        <li className="nav-item">
                             <a className="nav-link text-white" href="/contact">Contact</a>
                         </li>
                         {/* <li className="nav-item">

@@ -16,7 +16,7 @@
 }
 #btn{
   border-radius: 0;
-  width: 15%;
+  width: auto;
 }
 @media screen and (max-width: 500px){
   .nav-res{
@@ -213,6 +213,7 @@
 .fonction{
   color: red;
   font-size: 15PX;
+  border: 2px solid black;
 }
 .Partie-3{
   height: 150vh;
@@ -318,7 +319,7 @@
 .pro-sec2 h4{
   padding-top: 5%;
   padding-bottom: 4%;
-  width: 38%;
+  width: 40%;
 }
 .pro-sec2 p{
   width: 90%;
