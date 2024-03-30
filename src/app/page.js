@@ -55,7 +55,7 @@ export default function Home() {
               className="section-img"
               alt="c'est moi"
             />
-          </div>
+        </div>
       </div>
       <div className="section2">
         <h2 className="fs-3">RENCONTREZ A-CODERS : VOTRE PARTENAIRE 
