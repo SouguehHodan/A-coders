@@ -26,7 +26,7 @@ export default function Home() {
           </p>
           <div className="button2">
           <button type="button" class="btn btn-danger me-3">Danger</button>
-          <button type="button" class="btn btn-outline-danger">Danger</button>
+          <button type="button" class="btn btn-outline-danger text-white">Danger</button>
           </div>
         </div>
       </div>
@@ -304,7 +304,7 @@ export default function Home() {
         </div>
       </div>
     </div>
-    <div className="d-flex justify-content-center" id="acc-conc">
+    <div className="d-flex justify-content-center gap-5" id="acc-conc">
       <div className="acc-conc">
           <h3 className="fs-2 mb-4">Contactez-nous</h3>
           <p>
@@ -344,7 +344,7 @@ export default function Home() {
             </div>
           </div>
       </div>
-      <div className="w-50">
+      <div className="w-50 bg-gris-fonce rounded-10px mb-4">
         <Formulaire isVisible={isNavbarVisible} />
       </div>
     </div>

@@ -29,7 +29,7 @@ const Navbar =({ isVisible }) => {
     }
   
     return (
-        <nav className={`navbar navbar-expand-lg navbar-light fixed-top ${navbarsolid ?'bg-danger':'navbar-transparent'} shadow-sm  p-2 text-dark`}>
+        <nav className={`navbar navbar-expand-lg navbar-light fixed-top ${navbarsolid ?'bg-dark':'navbar-transparent'} shadow-sm  p-2 text-dark`}>
             <div className="container-fluid">
               <div className="d-flex align-items-center justify-content-between mb-2 pb-1">
                 <i className="fas fa-cubes fa-2x me-4"></i>
@@ -57,13 +57,16 @@ const Navbar =({ isVisible }) => {
                             <a className="nav-link text-white custom-link" href="/service">Service</a>
                         </li>
                         <li className="nav-item">
+                            <a className="nav-link text-white custom-link" href="/portfolio">Portfolio</a>
+                        </li>
+                        <li className="nav-item">
                             <a className="nav-link text-white custom-link" href="/contact">Contact</a>
                         </li>
                         {/* <li className="nav-item">
                             <a  href="/contact" className="btn btn-dark" role="button">Rejoin nous</a>
                         </li> */}
                     </ul>
-                    <a  href="/contact" className="btn btn-dark animate__animated animate__bounceInUp" role="button" id='btn'>Rejoin nous</a>
+                    <a  href="/contact" className="btn btn-danger animate__animated animate__bounceInUp" role="button" id='btn'>Rejoin nous</a>
                 </div>
             </div>
             </div>

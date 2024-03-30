@@ -6,14 +6,14 @@ const Footer =({ isVisible }) => {
     }
   
     return (
-<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+<footer class="text-center text-lg-start text-muted bg-gris-fonce">
   <section class="d-flex justify-content-center justify-content-lg-between">
     <div>
       <a href="" class="me-4 text-reset">
         <i class="fab fa-facebook-f"></i>
       </a>
       <a href="" class="me-4 text-reset">
-        <i class="fab fa-twitter"></i>
+        <i class="fab fa-twitter text-danger"></i>
       </a>
       <a href="" class="me-4 text-reset">
         <i class="fab fa-google"></i>
@@ -33,57 +33,50 @@ const Footer =({ isVisible }) => {
     <div class="container text-center text-md-start mt-5">
       <div class="row mt-3">
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-          <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-gem me-3"></i>Company name
-          </h6>
-          <p>
+        <Image
+            src="/logo1.png"
+            width={200}
+            height={50}
+            className="mb-3"
+          />
+          <p className="text-gris-fonce fw-bold">
             À A-Coders, nous façonnons l'avenir du web, 
             ligne de code par ligne de code. Joignez-vous à nous 
             dans cette aventure vers l'innovation et l'excellence en ligne.
+          </p>
+          <p>
+            <span className="text-red text-capitalize fw-bolder fs-5"> suivez nous :</span>
           </p>
         </div>
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
           <h6 class="text-uppercase fw-bold mb-4">
             Menu
           </h6>
-          <p>
-            <a href="#!" class="text-reset">Accueil</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">A propos de nous</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Service</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Portfolio</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Contact</a>
-          </p>
+          <div className="d-flex flex-column">
+            <a href="#!" class="d-block text-reset text-decoration-none fw-bold fs-7">Accueil</a>
+            <a href="#!" class="d-block text-reset text-decoration-none fw-bold fs-7">A propos de nous</a>
+            <a href="#!" class="d-block text-reset text-decoration-none fw-bold fs-7">Service</a>
+            <a href="#!" class="d-block text-reset text-decoration-none fw-bold fs-7">Portfolio</a>
+            <a href="#!" class="d-block text-reset text-decoration-none fw-bold fs-7">Contact</a>
+          </div>
         </div>
         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
           <h6 class="text-uppercase fw-bold mb-4">
             Service
           </h6>
-          <p>
-            <a href="#!" class="text-reset">Developpent web</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Locationdu site web</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Maintenance du site web</a>
-          </p>
+          <div className="d-flex flex-column">
+            <a href="#!" class="d-block text-reset text-decoration-none fw-bold fs-7">Developpent web</a>
+            <a href="#!" class="d-block text-reset text-decoration-none fw-bold fs-7">Location du site web</a>
+            <a href="#!" class="d-block text-reset text-decoration-none fw-bold fs-7">Maintenance du site web</a>
+          </div>
         </div>
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
           <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-          <p><i class="fas fa-home me-3"></i>+25377885799</p>
-          <p>
-            <i class="fas fa-envelope me-3"></i>
-            a-coders@gamil.com
-          </p>
-          <p><i class="fas fa-phone me-3"></i>Avenue 26, Q5 ,Djibouti </p>
+          <div className="d-flex flex-column">
+            <span className="d-block fw-bold"><i class="fas fa-home me-3"></i>+25377885799</span>
+            <span className="d-block fw-bold"><i class="fas fa-envelope me-3"></i> a-coders@gamil.com</span>
+            <span className="d-block fw-bold"><i class="fas fa-phone me-3"></i>Avenue 26, Q5 ,Djibouti</span>
+          </div>
         </div>
       </div>
     </div>
