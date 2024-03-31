@@ -87,9 +87,6 @@ const Footer =({ isVisible }) => {
     <span>Créé avec passion par A-coders.</span>
   </div>
 </footer>
-
-
-
     )
     }
     export default Footer;

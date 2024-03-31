@@ -62,12 +62,12 @@ const Propos = () => {
               histoire est un témoignage de persévérance, d'innovation et d'engagement 
               envers l'excellence en ligne.
             </p>
-            <a  href="/contact" className="btn btn-dark" role="button" id='btn'>Rejoin nous</a>
+            <a  href="/contact" className="btn btn-dark" role="button" id='btn'>Voir nos réalisation</a>
           </div>
         </div>
 
         <div className="pro-sec2">
-          <h4 className="fs-3">PLONGEZ DANS NOTRE ÉQUIPE: DES EXPERTS UNIS POUR RÉALISER VOS PROJETS WEB</h4>
+          <h4 className="fs-2 fw-bold">PLONGEZ DANS NOTRE ÉQUIPE: DES EXPERTS UNIS POUR RÉALISER VOS PROJETS WEB</h4>
           <p className="fs-5">
             Chez A-Coders, nous formons une équipe dynamique et passionnée, unie par notre amour commun pour le web et notre engagement à offrir des solutions numériques de 
             qualité supérieure. Forts d'une diversité de compétences et d'expériences, nous sommes parfaitement positionnés pour relever les défis les plus complexes et donner vie à 
@@ -80,8 +80,8 @@ const Propos = () => {
             <div className="pro2-1">
               <Image
                 src="/perso1.JPG"
-                width={220}
-                height={250}
+                width={200}
+                height={220}
                 className="ms-1 mb-5 mt-1"
                 alt="c'est moi"
               />
@@ -96,8 +96,8 @@ const Propos = () => {
             <div className="pro2-1">
               <Image
                 src="/perso1.JPG"
-                width={220}
-                height={250}
+                width={200}
+                height={220}
                 className="ms-1 mb-5 mt-1"
                 alt="c'est moi"
               />
@@ -112,8 +112,8 @@ const Propos = () => {
             <div className="pro2-1">
               <Image
                 src="/perso2.JPG"
-                width={220}
-                height={250}
+                width={200}
+                height={220}
                 className="ms-1 mb-5"
                 alt="c'est moi"
               />
@@ -128,13 +128,13 @@ const Propos = () => {
             <div className="pro2-1">
               <Image
                 src="/perso1.JPG"
-                width={220}
-                height={250}
+                width={200}
+                height={220}
                 className="ms-1 mb-5 my-1"
                 alt="c'est moi"
               />
               <br/>
-              <span>Ilyas OmaR</span>
+              <span>Ilyas Omar</span>
               <br/>
               <span className="fonction">DEVELOPPEUR BACK-END</span>
               <p>
