@@ -34,7 +34,7 @@ const Footer =({ isVisible }) => {
       <div class="row mt-3">
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
         <Image
-            src="/logo1.png"
+            src="/logo1.PNG"
             width={200}
             height={50}
             className="mb-3"

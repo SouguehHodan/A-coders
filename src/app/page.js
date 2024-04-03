@@ -26,7 +26,7 @@ export default function Home() {
           </p>
           <div className="button2">
           <button type="button" class="btn btn-danger me-3">Danger</button>
-          <button type="button" class="btn btn-outline-danger text-white">Danger</button>
+          <button type="button" class="btn btn-outline-danger">Danger</button>
           </div>
         </div>
       </div>
@@ -200,9 +200,9 @@ export default function Home() {
         <div className="partie3-1"> 
           <div className="partie3-2">
             <Image
-              src="/projet1.jpg"
-              width={337}
-              height={255}
+              src="/projet1.JPG"
+              width={367}
+              height={355}
               className=""
               alt="c'est moi"
             />
@@ -235,7 +235,7 @@ export default function Home() {
           src="/accueil5.JPG"
           width={600}
           height={400}
-          className="ms-5 me-5"
+          className="image ms-5 me-5"
           alt="c'est moi"
         />
         <div className="partie4-1">
@@ -304,7 +304,7 @@ export default function Home() {
         </div>
       </div>
     </div>
-    <div className="d-flex justify-content-center gap-5" id="acc-conc">
+    <div className="d-flex justify-content-center" id="acc-conc">
       <div className="acc-conc">
           <h3 className="fs-2 mb-4">Contactez-nous</h3>
           <p>
@@ -344,7 +344,7 @@ export default function Home() {
             </div>
           </div>
       </div>
-      <div className="w-50 bg-gris-fonce rounded-10px mb-4">
+      <div className="w-50" id="form">
         <Formulaire isVisible={isNavbarVisible} />
       </div>
     </div>
