@@ -16,5 +16,8 @@
 .custom-link:hover::before{
     width: 100%;
 }
+.navbar-toggler-icon {
+    background-color: #fff; /* Couleur blanche */
+}
 
 

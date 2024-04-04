@@ -13,8 +13,8 @@ const Propos = () => {
     return (
       <section>
         <Navbar isVisible={isNavbarVisible} />
-        <div className="propos-img">
-          <div className="text-white ps-5 pt-5" id="propos">
+        <div className="propos-img d-flex justify-content center">
+          <div className="text-white d-flex flex-column align-items-center justify-content-center w-100 pt-4" id="propos">
             <h1 className="text-white fw-boldn mb-4 fs-1">A PROPOS DE NOUS</h1>
             <p className="text-white mb-5 fs-5">
               Explorez notre histoire, notre équipe et notre engagement envers 

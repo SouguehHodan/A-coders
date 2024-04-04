@@ -25,8 +25,8 @@ export default function Home() {
             évolution
           </p>
           <div className="button2">
-          <button type="button" class="btn btn-danger me-3">Danger</button>
-          <button type="button" class="btn btn-outline-danger text-white">Danger</button>
+          <button type="button" class="btn btn-danger me-3 text-capitalize">voire notre portfolio</button>
+          <button type="button" class="btn btn-outline-danger text-white text-capitalize">en savoir plus</button>
           </div>
         </div>
       </div>

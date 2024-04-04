@@ -177,6 +177,10 @@
     flex-direction: column;
     /* background-color: rgba(25, 64, 181, 0.6); */
   }
+  /* .img1{
+    max-width: 400px;
+    max-height: 200px;
+  } */
   .section2{
     width: 100%;
     margin-left: 15%;
@@ -271,11 +275,22 @@
   background-color: #D6D6D6;
   padding: 10px;
 }  
+.bg-gris-clear{
+  background-color: #F6F3F3;
+  padding: 10px;
+}  
 .btn-red{
   color: white;
   background-color: #FF1F1F;
   transition: all 0.5 ease;
 }
+.ml-4{
+  margin-left: 100px;
+}
+.marginR{
+  margin-right: 24px;
+}
+
 
 .btn-red:hover{
   color: white;
@@ -286,6 +301,9 @@
 }
 .text-red{
   color: #df1717;
+}
+.text-red-1{
+  color: #FF1F1F;
 }
 .text-gris-fonce{
   color: #3E495B;
@@ -328,7 +346,13 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-#propos{
+.spanline{
+  height: 2px;
+  width: 50px;
+  background-color: #FF1F1F;
+  display: inline-block;
+}
+/* #propos{
   position: absolute;
   top: 30%;
   left: 20%;
@@ -338,7 +362,7 @@
 #propos p{
   width: 70%;
   margin-left: 15%;
-}
+} */
 .img-propos{
   position: relative;
   margin-left: 18%;

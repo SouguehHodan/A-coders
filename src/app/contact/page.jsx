@@ -13,8 +13,8 @@ const Contact = () => {
     return (
       <section>
         <Navbar isVisible={isNavbarVisible} />
-        <div className="propos-img">
-          <div className="text-white ps-5 pt-5" id="propos">
+        <div className="propos-img d-flex justify-content-center">
+          <div className="text-white d-flex flex-column align-items-center justify-content-center w-100 pt-4" id="propos">
             <h1 className="text-white fw-boldn mb-4 fs-1 text-uppercase">parlons ensemble</h1>
             <p className="text-white mb-5 fs-7">
               Découvrez notre portfolio inspirant.Explorez nos créations pour vous  <br />inspirer et découvrir notre expertise en action.
@@ -32,13 +32,31 @@ const Contact = () => {
               préférences :
             </p>
             <div>
-              <div className="p-2">
+              <div className="p-2 d-flex gap-1">
+              <Image 
+                src="/map.png"
+                width={30}
+                height={30}
+                className="mb-3 cursor-pointer"
+              />
                 <span className="fs-6 fw-bold" >Centre-Ville, Rue de Berne, Djibouti</span>
               </div>
-              <div className="p-2">
+              <div className="p-2 d-flex gap-1">
+              <Image 
+                src="/iconephone.png"
+                width={30}
+                height={30}
+                className="mb-3 cursor-pointer"
+              />
                 <span className="fs-6 fw-bold" >+253 77 86 11 43 / +253 77 22 63 43</span>
               </div>
-              <div className="p-2">
+              <div className="p-2 d-flex gap-1">
+              <Image 
+                src="/emailicone.png"
+                width={30}
+                height={30}
+                className="mb-3 cursor-pointer"
+              />
                 <span className="fs-6 fw-bold" >safajetdjib@gmail.com</span>
               </div>
             </div>
