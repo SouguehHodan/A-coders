@@ -13,17 +13,18 @@ const Propos = () => {
     return (
       <section>
         <Navbar isVisible={isNavbarVisible} />
-        <div className="propos-img d-flex justify-content center">
+
+        <div className="propos-img d-flex justify-content-center">
           <div className="text-white d-flex flex-column align-items-center justify-content-center w-100 pt-4" id="propos">
-            <h1 className="text-white fw-boldn mb-4 fs-1">A PROPOS DE NOUS</h1>
-            <p className="text-white mb-5 fs-5">
+          <h1 className="text-white fw-boldn mb-4 fs-1 text-uppercase">A PROPOS DE NOUS</h1>
+          <p className="text-white mb-5 fs-7">
               Explorez notre histoire, notre équipe et notre engagement envers 
               l'excellence en ligne. Chargement en cours...
             </p>
           </div>
         </div>
         <div className="row">
-          <div className="col-sm-6">
+          <div className="col-sm-6" id="img-propo">
             <Image
               src="/accueil4.jpeg"
               width={390}
@@ -62,12 +63,12 @@ const Propos = () => {
               histoire est un témoignage de persévérance, d'innovation et d'engagement 
               envers l'excellence en ligne.
             </p>
-            <a  href="/contact" className="btn btn-dark" role="button" id='btn'>Voir nos réalisation</a>
+            <a  href="/contact" className="btn btn-dark" role="button" id='btn'>Rejoin nous</a>
           </div>
         </div>
 
         <div className="pro-sec2">
-          <h4 className="fs-2 fw-bold">PLONGEZ DANS NOTRE ÉQUIPE: DES EXPERTS UNIS POUR RÉALISER VOS PROJETS WEB</h4>
+          <h4 className="fs-3">PLONGEZ DANS NOTRE ÉQUIPE: DES EXPERTS UNIS POUR RÉALISER VOS PROJETS WEB</h4>
           <p className="fs-5">
             Chez A-Coders, nous formons une équipe dynamique et passionnée, unie par notre amour commun pour le web et notre engagement à offrir des solutions numériques de 
             qualité supérieure. Forts d'une diversité de compétences et d'expériences, nous sommes parfaitement positionnés pour relever les défis les plus complexes et donner vie à 
@@ -80,8 +81,8 @@ const Propos = () => {
             <div className="pro2-1">
               <Image
                 src="/perso1.JPG"
-                width={200}
-                height={220}
+                width={220}
+                height={250}
                 className="ms-1 mb-5 mt-1"
                 alt="c'est moi"
               />
@@ -96,8 +97,8 @@ const Propos = () => {
             <div className="pro2-1">
               <Image
                 src="/perso1.JPG"
-                width={200}
-                height={220}
+                width={220}
+                height={250}
                 className="ms-1 mb-5 mt-1"
                 alt="c'est moi"
               />
@@ -112,8 +113,8 @@ const Propos = () => {
             <div className="pro2-1">
               <Image
                 src="/perso2.JPG"
-                width={200}
-                height={220}
+                width={220}
+                height={250}
                 className="ms-1 mb-5"
                 alt="c'est moi"
               />
@@ -128,8 +129,8 @@ const Propos = () => {
             <div className="pro2-1">
               <Image
                 src="/perso1.JPG"
-                width={200}
-                height={220}
+                width={220}
+                height={250}
                 className="ms-1 mb-5 my-1"
                 alt="c'est moi"
               />
