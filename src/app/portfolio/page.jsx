@@ -2,6 +2,7 @@ import Image from "next/image";
 import Navbar from "@/components/Navbar/navbar"
 import Footer from "@/components/Footer/footer"
 import Formulaire from "@/components/Formulaire/form"
+import '../styles/portfolio.css';
 
 
 const Portfolio = () => {
@@ -13,11 +14,12 @@ const Portfolio = () => {
     return (
       <section>
         <Navbar isVisible={isNavbarVisible} />
-        <div className="propos-img d-flex justify-content-center">
-          <div className="text-white d-flex flex-column align-items-center justify-content-center w-100 pt-4" id="propos">
-            <h1 className="text-white fw-boldn mb-4 fs-1 text-uppercase">nos réalisations</h1>
-            <p className="text-white mb-5 fs-7">
-              Découvrez notre portfolio inspirant.Explorez nos créations pour vous  <br />inspirer et découvrir notre expertise en action.
+        <div className="propos-img">
+          <div className="text-white ps-5 pt-5" id="propos">
+          <h1 className="text-white fw-boldn mb-4 fs-1 text-uppercase">NOS REALISATION</h1>
+          <p className="text-white mb-5 fs-7">
+              Découvrez notre portfolio inspirant.Explorez nos créations pour vous
+              inspirer et découvrir notre expertise en action.
             </p>
           </div>
         </div>

@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar/navbar"
 import Footer from "@/components/Footer/footer"
 import Formulaire from "@/components/Formulaire/form"
 import { BsCodeSlash } from 'react-icons/bs';
+import '../styles/service.css';
 
 
 const Propos = () => {
@@ -14,10 +15,10 @@ const Propos = () => {
     return (
       <section>
         <Navbar isVisible={isNavbarVisible} />
-        <div className="propos-img d-flex justify-content-center">
-          <div className="text-white d-flex flex-column align-items-center justify-content-center w-100 pt-4" id="propos">
-            <h1 className="text-white fw-bold mb-2 ">NOS SERVICE WEB</h1>
-            <p className="text-white mb-5 fs-5 text-center">
+        <div className="service-img">
+          <div className="text-white ps-5 pt-5" id="service">
+            <h1 className="text-white fw-boldn mb-4 fs-1 text-uppercase">NOS SERVICE WEB</h1>
+            <p className="text-white mb-5 fs-7">
                 Découvrez notre gamme complète de services web conçus pour répondre à vos besoins <br />
                 numériques. De la conception à la mise en œuvre, nous sommes là pour vous accompagner à <br />
                 chaque étape de votre projet en ligne. Explorez nos services ci-dessous pour voir comment  <br />

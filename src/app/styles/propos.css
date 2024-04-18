@@ -1,0 +1,174 @@
+/* propos */
+.propos-img{
+    margin-bottom: 10%;
+    width: 100%;
+    height: 70vh;
+    /* background-image:url(../../public/couverture.jpg); */
+    background-image:linear-gradient(rgba(68, 85, 138, 0.6),rgba(52, 57, 111, 0.9)),url(../../../public/accueil1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #propos{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    text-align: center;
+    width: 55%;
+  }
+  #propos p{
+    width: 70%;
+    margin-left: 15%;
+  }
+  .img-propos{
+    position: relative;
+    margin-left: 18%;
+  }
+  .img-propos1 {
+    position: absolute;
+    top: 135vh;
+    left: 37vh;
+  }
+  
+  @media screen and (max-width: 500px){
+    #propos{
+      top: 20%;
+      left: 0;
+      width: 75%;
+    }
+    #propos h1{
+      margin-left: 5%;
+      width: 100%;
+    }
+    #propos p{
+      margin-left: 8%;
+      width: 100%; 
+      font-size: 18px;
+    }
+    #img-propo{
+      display: none;
+    }
+    #propos-sect{
+      width: 40%;
+      line-height: 3vh;
+    }
+    #propos-sect h3{
+      margin-bottom: 10%;
+    }
+    #propos-sect a{
+      margin-top: 8%;
+    }
+  }
+  
+  #propos-sect{
+    width: 40%;
+    line-height: 3vh;
+  }
+  #propos-sect h3{
+    margin-bottom: 10%;
+  }
+  #propos-sect a{
+    margin-top: 8%;
+  }
+  
+  @media screen and (max-width: 500px){
+    #propos-sect{
+      width: 100%;
+      margin-top: 10%;
+    }
+    #propos-sect h3{
+      margin-bottom: 10%;
+    }
+    #propos-sect a{
+      margin-top: 8%;
+    }
+  }
+  
+  .pro-sec2{
+    margin-top: 20%;
+    margin-bottom: 10%;
+    padding-left: 10%;
+    background-color: rgb(239, 234, 226);
+    height: 150vh;
+  }
+  .pro-sec2 h4{
+    padding-top: 5%;
+    padding-bottom: 4%;
+    width: 40%;
+  }
+  .pro-sec2 p{
+    width: 90%;
+    margin-bottom: 5%;
+  }
+  .propos2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .pro2-1{
+    width: 20%;
+    height: 80vh;
+    margin-right: 5%;
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+  }
+  .icon{
+    font-size: 50px;
+  }
+  
+  @media screen and (max-width: 500px){
+    .pro-sec2{
+      height: 200%;
+      margin-bottom: 10%;
+    }
+    .pro-sec2 h4{
+      width: 80%;
+      font-size: 20px;
+    }
+    .pro-sec2 p{
+      width: 100%;
+      font-size: 2%;
+    }
+    .propos2{
+      width: 100%;
+      flex-direction: column;
+    }
+    .pro2-1{
+      width: 100%;
+      margin: 10%;
+      margin-left: 0;
+    }
+  }
+  
+  .propos3 h4{
+    padding-left: 8%;
+  }
+  .pro3{
+    width: 100%;
+    padding: 8%;
+    display: flex;
+    flex-direction: column;
+  }
+  .pro3-1{
+    display: flex;
+    flex-direction: row;
+  }
+  .pro3-2{
+    height: 38VH;
+    width: 50VH;
+    border: 1px solid black;
+    margin: 20px;
+  }
+  
+  @media screen and (max-width: 500px){
+    .propos3 h4{
+      margin-top: 10%;
+    }
+    .pro3-1{ 
+      margin: 0;
+      flex-direction: column;
+    }
+    .pro3-2{
+      width: 100%;
+    }
+  }

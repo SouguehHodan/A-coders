@@ -47,37 +47,17 @@ const Footer =({ isVisible }) => {
           <p>
             <span className="text-red text-capitalize fw-bolder fs-5"> suivez nous :</span>
           </p>
-          <div className="d-flex gap-2">
-              <Image 
-                src="/facebook.png"
-                width={35}
-                height={35}
-                className="mb-3 cursor-pointer"
-              />
-              <Image 
-                src="/twitter.png"
-                width={35}
-                height={35}
-                className="mb-3"
-              />
-              <Image 
-                src="/youtube.png"
-                width={35}
-                height={35}
-                className="mb-3"
-              />
-            </div>
         </div>
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
           <h6 class="text-uppercase fw-bold mb-4">
             Menu
           </h6>
           <div className="d-flex flex-column">
-            <a href="#!" class="d-block text-reset text-decoration-none fw-bold fs-7">Accueil</a>
-            <a href="#!" class="d-block text-reset text-decoration-none fw-bold fs-7">A propos de nous</a>
-            <a href="#!" class="d-block text-reset text-decoration-none fw-bold fs-7">Service</a>
-            <a href="#!" class="d-block text-reset text-decoration-none fw-bold fs-7">Portfolio</a>
-            <a href="#!" class="d-block text-reset text-decoration-none fw-bold fs-7">Contact</a>
+            <a href="/" class="d-block text-reset text-decoration-none fw-bold fs-7">Accueil</a>
+            <a href="/propos" class="d-block text-reset text-decoration-none fw-bold fs-7">A propos de nous</a>
+            <a href="/service" class="d-block text-reset text-decoration-none fw-bold fs-7">Service</a>
+            <a href="portfolio" class="d-block text-reset text-decoration-none fw-bold fs-7">Portfolio</a>
+            <a href="contact" class="d-block text-reset text-decoration-none fw-bold fs-7">Contact</a>
           </div>
         </div>
         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
@@ -94,7 +74,7 @@ const Footer =({ isVisible }) => {
           <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
           <div className="d-flex flex-column">
             <span className="d-block fw-bold"><i class="fas fa-home me-3"></i>+25377885799</span>
-            <span className="d-block fw-bold"><i class="fas fa-envelope me-3"></i> a-coders@gamil.com</span>
+            <span className="d-block fw-bold"><i class="fas fa-envelope me-3"></i>a-coders@gamil.com</span>
             <span className="d-block fw-bold"><i class="fas fa-phone me-3"></i>Avenue 26, Q5 ,Djibouti</span>
           </div>
         </div>
