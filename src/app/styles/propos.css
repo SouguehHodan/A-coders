@@ -115,6 +115,9 @@
   .icon{
     font-size: 50px;
   }
+  .fonction{
+    margin: 5%;
+  }
   
   @media screen and (max-width: 500px){
     .pro-sec2{

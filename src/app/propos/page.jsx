@@ -88,7 +88,7 @@ const Propos = () => {
                 alt="c'est moi"
               />
               <br/>
-              <span>Abdourahman</span>
+              <span className="fs-3 text-body-tertiary fw-bold">Abdourahman</span>
               <br/>
               <span className="fonction">DEVELOPPEUR BACK-END</span>
               <p>
@@ -109,7 +109,7 @@ const Propos = () => {
                 alt="c'est moi"
               />
               <br/>
-              <span>Zakaria Ali</span>
+              <span className="fs-3 text-body-tertiary fw-bold">Zakaria Ali</span>
               <br/>
               <span className="fonction">GRAPHIC DESIGNER MAQUETTISTE</span>
               <p>
@@ -130,7 +130,7 @@ const Propos = () => {
                 alt="c'est moi"
               />
               <br/>
-              <span>Habon Soule</span>
+              <span className="fs-3 text-body-tertiary fw-bold">Habon Soule</span>
               <br/>
               <span className="fonction">DEVELOPPEUSE FRONT-END</span>
               <p>
@@ -151,9 +151,9 @@ const Propos = () => {
                 alt="c'est moi"
               />
               <br/>
-              <span>Ilyas Omar</span>
+              <span className="fs-3 text-body-tertiary fw-bold">Ilyas Omar</span>
               <br/>
-              <span className="fonction">DEVELOPPEUR BACK-END</span>
+              <span className="fonction">FONDATEUR DEVELOPPEUR / BACK-END</span>
               <p>
                 Ilyas est le fondateur d'A-Coders et un développeur back-end chevronné. Il excelle dans l'utilisation de la technologie Django pour créer des applications web robustes et évolutives.
               </p>
