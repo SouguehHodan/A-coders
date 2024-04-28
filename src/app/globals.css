@@ -165,8 +165,8 @@
   flex-direction: row;
   /* background-color: rgba(25, 64, 181, 0.6); */
 }
-.section3-3{
-  height: 28VH;
+#section3-3{
+  height: 30VH;
   width: 50VH;
   padding: 15PX;
   background-color: white;

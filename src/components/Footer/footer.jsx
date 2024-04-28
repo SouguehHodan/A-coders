@@ -6,33 +6,33 @@ const Footer =({ isVisible }) => {
     }
   
     return (
-<footer class="text-center text-lg-start text-muted bg-gris-fonce">
-  <section class="d-flex justify-content-center justify-content-lg-between">
+<footer className="text-center text-lg-start text-muted bg-gris-fonce">
+  <section className="d-flex justify-content-center justify-content-lg-between">
     <div>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-facebook-f"></i>
+      <a href="" className="me-4 text-reset">
+        <i className="fab fa-facebook-f"></i>
       </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-twitter text-danger"></i>
+      <a href="" className="me-4 text-reset">
+        <i className="fab fa-twitter text-danger"></i>
       </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-google"></i>
+      <a href="" className="me-4 text-reset">
+        <i className="fab fa-google"></i>
       </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-instagram"></i>
+      <a href="" className="me-4 text-reset">
+        <i className="fab fa-instagram"></i>
       </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-linkedin"></i>
+      <a href="" className="me-4 text-reset">
+        <i className="fab fa-linkedin"></i>
       </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-github"></i>
+      <a href="" className="me-4 text-reset">
+        <i className="fab fa-github"></i>
       </a>
     </div>
   </section>
-  <section class="">
-    <div class="container text-center text-md-start mt-5">
-      <div class="row mt-3">
-        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+  <section className="">
+    <div className="container text-center text-md-start mt-5">
+      <div className="row mt-3">
+        <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
         <Image
             src="/logo1.PNG"
             width={200}
@@ -48,42 +48,42 @@ const Footer =({ isVisible }) => {
             <span className="text-red text-capitalize fw-bolder fs-5"> suivez nous :</span>
           </p>
         </div>
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-          <h6 class="text-uppercase fw-bold mb-4">
+        <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 className="text-uppercase fw-bold mb-4">
             Menu
           </h6>
           <div className="d-flex flex-column">
-            <a href="/" class="d-block text-reset text-decoration-none fw-bold fs-7">Accueil</a>
-            <a href="/propos" class="d-block text-reset text-decoration-none fw-bold fs-7">A propos de nous</a>
-            <a href="/service" class="d-block text-reset text-decoration-none fw-bold fs-7">Service</a>
-            <a href="portfolio" class="d-block text-reset text-decoration-none fw-bold fs-7">Portfolio</a>
-            <a href="contact" class="d-block text-reset text-decoration-none fw-bold fs-7">Contact</a>
+            <a href="/" className="d-block text-reset text-decoration-none fw-bold fs-7">Accueil</a>
+            <a href="/propos" className="d-block text-reset text-decoration-none fw-bold fs-7">A propos de nous</a>
+            <a href="/service" className="d-block text-reset text-decoration-none fw-bold fs-7">Service</a>
+            <a href="portfolio" className="d-block text-reset text-decoration-none fw-bold fs-7">Portfolio</a>
+            <a href="contact" className="d-block text-reset text-decoration-none fw-bold fs-7">Contact</a>
           </div>
         </div>
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-          <h6 class="text-uppercase fw-bold mb-4">
+        <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 className="text-uppercase fw-bold mb-4">
             Service
           </h6>
           <div className="d-flex flex-column">
-            <a href="#!" class="d-block text-reset text-decoration-none fw-bold fs-7">Developpent web</a>
-            <a href="#!" class="d-block text-reset text-decoration-none fw-bold fs-7">Location du site web</a>
-            <a href="#!" class="d-block text-reset text-decoration-none fw-bold fs-7">Maintenance du site web</a>
+            <a href="#!" className="d-block text-reset text-decoration-none fw-bold fs-7">Developpent web</a>
+            <a href="#!" className="d-block text-reset text-decoration-none fw-bold fs-7">Location du site web</a>
+            <a href="#!" className="d-block text-reset text-decoration-none fw-bold fs-7">Maintenance du site web</a>
           </div>
         </div>
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+        <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
           <div className="d-flex flex-column">
-            <span className="d-block fw-bold"><i class="fas fa-home me-3"></i>+25377885799</span>
-            <span className="d-block fw-bold"><i class="fas fa-envelope me-3"></i>a-coders@gamil.com</span>
-            <span className="d-block fw-bold"><i class="fas fa-phone me-3"></i>Avenue 26, Q5 ,Djibouti</span>
+            <span className="d-block fw-bold"><i className="fas fa-home me-3"></i>+25377885799</span>
+            <span className="d-block fw-bold"><i className="fas fa-envelope me-3"></i>a-coders@gamil.com</span>
+            <span className="d-block fw-bold"><i className="fas fa-phone me-3"></i>Avenue 26, Q5 ,Djibouti</span>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <div class="d-none d-lg-block p-4 border-top" id="footer">
+  <div className="d-none d-lg-block p-4 border-top" id="footer">
     © 2021 Copyright:
-    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    <a className="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
     <span>Créé avec passion par A-coders.</span>
   </div>
 </footer>

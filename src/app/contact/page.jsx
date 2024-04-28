@@ -35,13 +35,13 @@ const Contact = () => {
             </p>
             <div>
               <div className="p-2">
-                <span className="fs-6 fw-bold"><i class="fas fa-phone me-3"></i>Centre-Ville, Rue de Berne, Djibouti</span>
+                <span className="fs-6 fw-bold"><i className="fas fa-phone me-3"></i>Centre-Ville, Rue de Berne, Djibouti</span>
               </div>
               <div className="p-2">
-                <span className="fs-6 fw-bold"><i class="fas fa-home me-3"></i>+253 77 86 11 43 / +253 77 22 63 43</span>
+                <span className="fs-6 fw-bold"><i className="fas fa-home me-3"></i>+253 77 86 11 43 / +253 77 22 63 43</span>
               </div>
               <div className="p-2">
-                <span className="fs-6 fw-bold"><i class="fas fa-envelope me-3"></i>safajetdjib@gmail.com</span>
+                <span className="fs-6 fw-bold"><i className="fas fa-envelope me-3"></i>safajetdjib@gmail.com</span>
               </div>
             </div>
           </div>

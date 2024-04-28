@@ -7,6 +7,7 @@ import { BsCodeSlash } from 'react-icons/bs';
 import { BiMap } from 'react-icons/bi';
 import { BiGlobe } from 'react-icons/bi';
 import { BiCog } from 'react-icons/bi'
+import { BiCode } from 'react-icons/bi';
 
 export default function Home() {
 
@@ -37,8 +38,8 @@ export default function Home() {
             évolution
           </p>
           <div className="button2">
-          <button type="button" class="btn btn-danger me-3" id="button">Voir notre Portfolio </button>
-          <button type="button" class="btn btn-outline-danger">En Savoir plus</button>
+          <button type="button" className="btn btn-danger me-3" id="button">Voir notre Portfolio </button>
+          <button type="button" className="btn btn-outline-danger">En Savoir plus</button>
           </div>
         </div>
       </div>
@@ -81,15 +82,15 @@ export default function Home() {
         </p>
         <h5 className="title2">Découvrez notre équipe passionnée et notre engagement envers des sites web 
             d'exception. Chez A-Coders, votre succès en ligne est notre priorité.</h5>
-        <button type="button" class="btn btn-danger mt-3">Danger</button>
+        <button type="button" className="btn btn-danger mt-3">Danger</button>
       </div>
     </div>
 
     <div className="section3">
       <h3>PLONGEZ DANS NOTRE ÉVENTAIL COMPLET DE SERVICES WEB INNOVANTS</h3>
       <div className="section3-1">
-        <div className="section3-2">
-          <div className="section3-3">
+        <div className="row">
+          <div className="col-sm-3 p-5" id="section3-3">
             <h5><BsCodeSlash className="icon"/>Developpement Web</h5>
             <p> Notre service de développement web 
                 transforme vos idées en sites web fonctionnels 
@@ -98,7 +99,7 @@ export default function Home() {
                 nous pour donner vie à votre présence en ligne.</p>
             <a href="#">En savoir plus</a>
           </div>
-          <div className="section3-3">
+          <div className="col-sm-3 p-5" id="section3-3">
             <h5><BiGlobe className="icon"/>Location du Site Web</h5>
             <p> Notre service de location de site web offre une 
                 solution abordable et sans engagement pour 
@@ -107,7 +108,7 @@ export default function Home() {
                 maintenance continue.</p>
             <a href="#">En savoir plus</a>
           </div>
-          <div className="section3-3">
+          <div className="col-sm-3 p-5" id="section3-3">
             <h5><BiCog className="icon"/>Maintenance d’un site web</h5>
             <p> Assurez la performance optimale de votre site 
                 web avec notre service de maintenance. Nous 
@@ -117,9 +118,9 @@ export default function Home() {
             <a href="#">En savoir plus</a>
           </div>
         </div>
-        <div className="section3-2">
-          <div className="section3-3">
-            <h5><BsCodeSlash className="icon"/>Developpement Web</h5>
+        <div className="row">
+          <div className="col-sm-3 p-5" id="section3-3">
+            <h5><BiCode className="icon"/>Developpement Web</h5>
             <p> Notre service de développement web 
                 transforme vos idées en sites web fonctionnels 
                 et esthétiques, adaptés à vos besoins 
@@ -127,7 +128,7 @@ export default function Home() {
                 nous pour donner vie à votre présence en ligne.</p>
             <a href="#">En savoir plus</a>
           </div>
-          <div className="section3-3">
+          <div className="col-sm-3 p-5" id="section3-3">
             <h5><BiGlobe className="icon"/>Location du Site Web</h5>
             <p> Notre service de location de site web offre une 
                 solution abordable et sans engagement pour 
@@ -136,7 +137,7 @@ export default function Home() {
                 maintenance continue.</p>
             <a href="#">En savoir plus</a>
           </div>
-          <div className="section3-3">
+          <div className="col-sm-3 p-5" id="section3-3">
             <h5><BiCog className="icon"/>Maintenance d’un site web</h5>
             <p> Assurez la performance optimale de votre site 
                 web avec notre service de maintenance. Nous 
@@ -251,65 +252,65 @@ export default function Home() {
           alt="c'est moi"
         />
         <div className="partie4-1">
-        <div class="accordion accordion-flush" id="accordionFlushExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        <div className="accordion accordion-flush" id="accordionFlushExample">
+          <div className="accordion-item">
+            <h2 className="accordion-header">
+              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                 Quels types de sites web pouvez-vous créer ?
               </button>
             </h2>
-            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+            <div id="flush-collapseOne" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          <div className="accordion-item">
+            <h2 clclassNameass="accordion-header">
+              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                 Combien de temps faut-il pour créer un site web ?
               </button>
             </h2>
-            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+            <div id="flush-collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwoOne" aria-expanded="false" aria-controls="flush-collapseTwoOne">
+          <div className="accordion-item">
+            <h2 className="accordion-header">
+              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwoOne" aria-expanded="false" aria-controls="flush-collapseTwoOne">
                 Offrez-vous des services de maintenance après la création du site web ?
               </button>
             </h2>
-            <div id="flush-collapseTwoOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+            <div id="flush-collapseTwoOne" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwoTwo" aria-expanded="false" aria-controls="flush-collapseTwoTwo">
+          <div className="accordion-item">
+            <h2 className="accordion-header">
+              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwoTwo" aria-expanded="false" aria-controls="flush-collapseTwoTwo">
               Comment puis-je obtenir un devis pour mon projet ?
               </button>
             </h2>
-            <div id="flush-collapseTwoTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+            <div id="flush-collapseTwoTwo" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwoThree" aria-expanded="false" aria-controls="flush-collapseTwoThree">
+          <div className="accordion-item">
+            <h2 className="accordion-header">
+              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwoThree" aria-expanded="false" aria-controls="flush-collapseTwoThree">
                 Quels sont les modes de paiement acceptés ?
               </button>
             </h2>
-            <div id="flush-collapseTwoThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+            <div id="flush-collapseTwoThree" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          <div className="accordion-item">
+            <h2 className="accordion-header">
+              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                 Comment puis-je suivre les progrès de mon projet pendant le développement du site web ?
               </button>
             </h2>
-            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+            <div id="flush-collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
             </div>
           </div>
         </div>
