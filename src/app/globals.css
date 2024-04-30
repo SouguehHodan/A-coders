@@ -113,7 +113,7 @@
 }
 .section-img{
   position: absolute;
-  left: 30vh;
+  left: 35vh;
   top: 3vh;
 }
 .section2{
@@ -141,7 +141,7 @@
     width: 100%;
   }
 }
-@media screen and (max-width: 1500px){
+@media screen and (max-width: 1350px){
   .section-img{
     display: none;
   }  
@@ -170,7 +170,7 @@
   /* background-color: rgba(25, 64, 181, 0.6); */
 }
 #section3-3{
-  height: 30VH;
+  height: 35VH;
   width: 50VH;
   padding: 15PX;
   background-color: white;

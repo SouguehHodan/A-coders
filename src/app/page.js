@@ -153,71 +153,54 @@ export default function Home() {
     <div className="Partie-2">
       <h2>PLONGEZ DANS NOTRE ÉQUIPE: DES EXPERTS UNIS POUR RÉALISER VOS PROJETS WEB</h2>
       <div className="row" id="part2">
-        <div className="col-sm-2" id="part2-1">
-          <Image
-            src="/perso1.JPG"
-            width={200}
-            height={350}
-            className="ms-1 mb-5 mt-1"
-            alt="c'est moi"
-          />
-          <br/>
-          <span>Abdourahman</span>
-          <br/>
-          <span className="fonction">DEVELOPPEUR BACK-END</span>
-        </div>
-        <div className="col-sm-2" id="part2-1">
-          <Image
-            src="/perso1.JPG"
-            width={200}
-            height={350}
-            className="ms-1 mb-5 mt-1"
-            alt="c'est moi"
-          />
-          <br/>
-          <span>Zakaria Ali</span>
-          <br/>
-          <span className="fonction">GRAPHIC DESIGNER MAQUETTISTE</span>
-        </div>
-        <div className="col-sm-2" id="part2-1">
-          <Image
-            src="/perso2.JPG"
-            width={200}
-            height={350}
-            className="ms-1 mb-5"
-            alt="c'est moi"
-          />
-          <br/>
-          <span>Habon Soule</span>
-          <br/>
-          <span className="fonction">DEVELOPPEUSE FRONT-END</span>
-        </div>
-        <div className="col-sm-2" id="part2-1">
-          <Image
-            src="/perso1.JPG"
-            width={200}
-            height={350}
-            className="ms-1 mb-5 my-1"
-            alt="c'est moi"
-          />
-          <br/>
-          <span>Ilyas Omar</span>
-          <br/>
-          <span className="fonction">DEVELOPPEUR BACK-END</span>
-        </div>
-        <div className="col-sm-2" id="part2-1">
-          <Image
-            src="/perso1.JPG"
-            width={200}
-            height={350}
-            className="ms-1 mb-5 my-1"
-            alt="c'est moi"
-          />
-          <br/>
-          <span>Yahya</span>
-          <br/>
-          <span className="fonction">DEVELOPPEUR FRONT-END</span>
-        </div>
+ 
+<div id="carouselExampleIndicators" data-mdb-carousel-init class="carousel slide carousel-fade" data-mdb-ride="carousel">
+ 
+  <div class="carousel-inner mb-5">
+    <div class="carousel-item active">
+      <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(88).webp" className="d-block w-100" alt="..." />
+    </div>
+    <div class="carousel-item">
+      <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(121).webp" className="d-block w-100"
+        alt="..." />
+    </div>
+    <div class="carousel-item">
+      <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(31).webp" className="d-block w-100" alt="..." />
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleIndicators"
+    data-mdb-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleIndicators"
+    data-mdb-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  
+  <div className="carousel-indicators" style="margin-bottom: -20px;">
+    <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="0" className="active w-100"
+      aria-current="true" aria-label="Slide 1">
+      <img className="d-block w-100"
+        src="https://mdbcdn.b-cdn.net/img/Photos/Others/Carousel-thumbs/img%20(88).webp"/>
+    </button>
+    <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="1"
+      aria-label="Slide 2" >
+      <img className="d-block w-100"
+        src="https://mdbcdn.b-cdn.net/img/Photos/Others/Carousel-thumbs/img%20(121).webp" />
+    </button>
+    <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="2"
+      aria-label="Slide 3" >
+      <img className="d-block w-100"
+        src="https://mdbcdn.b-cdn.net/img/Photos/Others/Carousel-thumbs/img%20(31).webp"/>
+    </button>
+  </div>
+ 
+</div>
+
+
       </div>
     </div>
     <div className="Partie-3">
