@@ -83,7 +83,7 @@ const Footer =({ isVisible }) => {
   </section>
   <div className="d-none d-lg-block p-4 border-top" id="footer">
     © 2021 Copyright:
-    <a className="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    <a className="text-reset fw-bold" href="">A-Coders</a>
     <span>Créé avec passion par A-coders.</span>
   </div>
 </footer>

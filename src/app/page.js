@@ -152,11 +152,11 @@ export default function Home() {
 
     <div className="Partie-2">
       <h2>PLONGEZ DANS NOTRE ÉQUIPE: DES EXPERTS UNIS POUR RÉALISER VOS PROJETS WEB</h2>
-      <div className="part2">
-        <div className="part2-1">
+      <div className="row" id="part2">
+        <div className="col-sm-2" id="part2-1">
           <Image
             src="/perso1.JPG"
-            width={320}
+            width={200}
             height={350}
             className="ms-1 mb-5 mt-1"
             alt="c'est moi"
@@ -166,10 +166,10 @@ export default function Home() {
           <br/>
           <span className="fonction">DEVELOPPEUR BACK-END</span>
         </div>
-        <div className="part2-1">
+        <div className="col-sm-2" id="part2-1">
           <Image
             src="/perso1.JPG"
-            width={320}
+            width={200}
             height={350}
             className="ms-1 mb-5 mt-1"
             alt="c'est moi"
@@ -179,10 +179,10 @@ export default function Home() {
           <br/>
           <span className="fonction">GRAPHIC DESIGNER MAQUETTISTE</span>
         </div>
-        <div className="part2-1">
+        <div className="col-sm-2" id="part2-1">
           <Image
             src="/perso2.JPG"
-            width={320}
+            width={200}
             height={350}
             className="ms-1 mb-5"
             alt="c'est moi"
@@ -192,10 +192,10 @@ export default function Home() {
           <br/>
           <span className="fonction">DEVELOPPEUSE FRONT-END</span>
         </div>
-        <div className="part2-1">
+        <div className="col-sm-2" id="part2-1">
           <Image
             src="/perso1.JPG"
-            width={320}
+            width={200}
             height={350}
             className="ms-1 mb-5 my-1"
             alt="c'est moi"
@@ -204,6 +204,19 @@ export default function Home() {
           <span>Ilyas Omar</span>
           <br/>
           <span className="fonction">DEVELOPPEUR BACK-END</span>
+        </div>
+        <div className="col-sm-2" id="part2-1">
+          <Image
+            src="/perso1.JPG"
+            width={200}
+            height={350}
+            className="ms-1 mb-5 my-1"
+            alt="c'est moi"
+          />
+          <br/>
+          <span>Yahya</span>
+          <br/>
+          <span className="fonction">DEVELOPPEUR FRONT-END</span>
         </div>
       </div>
     </div>
