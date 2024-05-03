@@ -1,4 +1,4 @@
-// 'use client'
+'use client'
 // // components/ScrollMagicComponent.js
 
 // import React, { useEffect } from "react";
@@ -31,3 +31,35 @@
 // };
 
 // export default ScrollMagicComponent;
+
+
+// components/ScrollAnimation.js
+import { useEffect } from 'react';
+
+const ScrollAnimation = () => {
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY;
+      // Vous pouvez ajuster ces valeurs selon vos besoins
+      const threshold = 100; // La distance à partir du haut de la page où l'animation doit commencer
+      const fadeElements = document.querySelectorAll('.fade-in'); // Les éléments à animer
+      fadeElements.forEach((element) => {
+        const elementOffset = element.offsetTop;
+        if (scrollTop > elementOffset - threshold) {
+          element.classList.add('visible');
+        } else {
+          element.classList.remove('visible');
+        }
+      });
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  return null;
+};
+
+export default ScrollAnimation;

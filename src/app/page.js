@@ -2,6 +2,7 @@ import Image from "next/image";
 import Navbar from "@/components/Navbar/navbar"
 import Footer from "@/components/Footer/footer"
 import Formulaire from "@/components/Formulaire/form"
+import ScrollAnimation from '@/components/animation/animations';
 import { Span } from "next/dist/trace";
 import { BsCodeSlash } from 'react-icons/bs';
 import { BiMap } from 'react-icons/bi';
@@ -18,15 +19,16 @@ export default function Home() {
   return (
     <section>
     <Navbar isVisible={isNavbarVisible} />
+    <ScrollAnimation />
     <div className="accueil-img">
         <div className="text-white ps-5 pt-5" id="accueil">
 
         <div className="container1">
-          <div className="fw-bold">
-            <span className="text-danger">---------- </span>
-            <span className="text">LE FUTUR DU WEB COMMENCE MAINTENAN</span>
-            <span className="dash"> ----------</span>
-          </div>
+          <h4 className="d-flex justify-content-center gap-3 text-red-1 fs-5">
+            <div className="spanline align-self-center "></div>  
+              LE FUTUR DU WEB COMMENCE MAINTENANT 
+              <div className="spanline align-self-center"></div>
+            </h4>
         </div>
 
           <h1 className="text-white fw-boldn mb-4"><span className="acc-colo">A-CODERS</span>, VOTRE PARTENAIRE POUR 
@@ -180,7 +182,7 @@ export default function Home() {
     <span class="visually-hidden">Next</span>
   </button>
   
-  <div className="carousel-indicators" style="margin-bottom: -20px;">
+  <div className="carousel-indicators">
     <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="0" className="active w-100"
       aria-current="true" aria-label="Slide 1">
       <img className="d-block w-100"
