@@ -37,7 +37,7 @@ const Contact = () => {
             </p>
             <div>
               <div className="p-2">
-              <FaMapMarkerAlt size={30} className="icon1"/>
+              <FaMapMarkerAlt size={30} className="iconoiji1"/>
               <span className="fw-bold">Centre-Ville, Rue de Berne, Djibouti</span>
               </div>
               <div className="p-2">
