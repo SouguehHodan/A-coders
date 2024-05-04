@@ -46,7 +46,7 @@ const Contact = () => {
               </div>
               <div className="p-2">
               <FaEnvelope size={30}  className="icon1"/>
-              <span className="fw-bold">safajetdjib@gmail.com</span>gn,
+              <span className="fw-bold">safajetdjib@gmail.cogggm</span>
               </div>
             </div>
           </div>
