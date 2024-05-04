@@ -17,7 +17,7 @@ export default function Formulaire() {
   };
 
   return (
-    <div className="container pb-5">
+    <div className="container">
       <Head>
         <title>Formulaire de Contact</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />

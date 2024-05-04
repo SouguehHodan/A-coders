@@ -34,14 +34,16 @@
 
 
 // components/ScrollAnimation.js
+// components/ScrollAnimation.js
 import { useEffect } from 'react';
+import '../animation/animation.css';
 
-const ScrollAnimation = () => {
+const ScrollAnimation = ({ children }) => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
       // Vous pouvez ajuster ces valeurs selon vos besoins
-      const threshold = 100; // La distance à partir du haut de la page où l'animation doit commencer
+      const threshold = 50; // La distance à partir du haut de la page où l'animation doit commencer
       const fadeElements = document.querySelectorAll('.fade-in'); // Les éléments à animer
       fadeElements.forEach((element) => {
         const elementOffset = element.offsetTop;
@@ -54,12 +56,13 @@ const ScrollAnimation = () => {
     };
 
     window.addEventListener('scroll', handleScroll);
+    handleScroll(); // Appeler la fonction pour vérifier l'état initial
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
-  return null;
+  return <>{children}</>;
 };
 
 export default ScrollAnimation;

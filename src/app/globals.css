@@ -197,6 +197,11 @@
   font-weight: bold;
   color: red;
 }
+.icon1{
+  font-weight: bold;
+  color: red;
+  margin: 1%;
+}
 
 @media screen and (max-width: 500px){
   .section3{
@@ -328,6 +333,16 @@
 .partie4-1{
   width: 50%;
 }
+.acc-conc{
+  width: 50%;
+  margin-top: 3%;
+}
+#acc-conc{
+  margin-bottom: 8%;
+}
+.acc-conc p{
+  width: 80%;
+}
 
 @media screen and (max-width: 500px){
   .Partie-4{
@@ -351,11 +366,7 @@
   .form_contact{
     width: 100%;
   }
-}
-
-#acc_conc{
-  margin-top: 0%;
-}  
+} 
 
 #footer span{
   float: right;

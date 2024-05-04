@@ -2,13 +2,13 @@ import Image from "next/image";
 import Navbar from "@/components/Navbar/navbar"
 import Footer from "@/components/Footer/footer"
 import Formulaire from "@/components/Formulaire/form"
-import ScrollAnimation from '@/components/animation/animations';
 import { Span } from "next/dist/trace";
 import { BsCodeSlash } from 'react-icons/bs';
 import { BiMap } from 'react-icons/bi';
 import { BiGlobe } from 'react-icons/bi';
 import { BiCog } from 'react-icons/bi'
 import { BiCode } from 'react-icons/bi';
+import { FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 
 export default function Home() {
 
@@ -19,7 +19,6 @@ export default function Home() {
   return (
     <section>
     <Navbar isVisible={isNavbarVisible} />
-    <ScrollAnimation />
     <div className="accueil-img">
         <div className="text-white ps-5 pt-5" id="accueil">
 
@@ -317,7 +316,7 @@ export default function Home() {
     </div>
     <div className="d-flex justify-content-center" id="acc-conc">
       <div className="acc-conc">
-          <h3 className="fs-2 mb-4">Contactez-nous</h3>
+          <h3 className="fs-2 mb-5">Contactez-nous</h3>
           <p>
             Que ce soit pour discuter de vos besoins d'impression 
             numérique, obtenir des informations supplémentaires sur nos 
@@ -326,32 +325,17 @@ export default function Home() {
             préférences :
           </p>
           <div>
-            <div>
-            <Image
-              src="/icon0.png"
-              width={40}
-              height={40}
-              className="me-2 mb-2 mx-0 ms-0"
-            />
-            <span>Centre-Ville, Rue de Berne, Djibouti</span>
+            <div className="mt-5">
+            <FaMapMarkerAlt size={30} className="icon1"/>
+            <span className="fw-bold">Centre-Ville, Rue de Berne, Djibouti</span>
             </div>
             <div>
-            <Image
-              src="/icon9.png"
-              width={25}
-              height={25}
-              className="me-4 mb-3 ms-1"
-            />
-            <span>+253 77 86 11 43 / +253 77 22 63 43</span>
+            <FaPhone size={30}  className="icon1"/>
+            <span className="fw-bold">+253 77 86 11 43 / +253 77 22 63 43</span>
             </div>
             <div>
-            <Image
-              src="/icon8.png"
-              width={25}
-              height={25}
-              className="me-4 ms-1"
-            />
-            <span>safajetdjib@gmail.com</span>
+            <FaEnvelope size={30}  className="icon1"/>
+            <span className="fw-bold">safajetdjib@gmail.com</span>
             </div>
           </div>
       </div>

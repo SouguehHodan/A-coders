@@ -2,8 +2,9 @@ import Image from "next/image";
 import Navbar from "@/components/Navbar/navbar"
 import Footer from "@/components/Footer/footer"
 import Formulaire from "@/components/Formulaire/form"
-import ScrollAnimation from '@/components/animation/animation';
+import ScrollAnimation from '@/components/animation/animations';
 import '../styles/contact.css';
+import { FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 
 
 const Contact = () => {
@@ -14,6 +15,7 @@ const Contact = () => {
 
     return (
       <section>
+        <ScrollAnimation>
         <Navbar isVisible={isNavbarVisible} />
         <div className="contact-img">
           <div className="text-white ps-5 pt-5" id="contact">
@@ -35,13 +37,16 @@ const Contact = () => {
             </p>
             <div>
               <div className="p-2">
-                <span className="fs-6 fw-bold"><i className="fas fa-phone me-3"></i>Centre-Ville, Rue de Berne, Djibouti</span>
+              <FaMapMarkerAlt size={30} className="icon1"/>
+              <span className="fw-bold">Centre-Ville, Rue de Berne, Djibouti</span>
               </div>
               <div className="p-2">
-                <span className="fs-6 fw-bold"><i className="fas fa-home me-3"></i>+253 77 86 11 43 / +253 77 22 63 43</span>
+              <FaPhone size={30}  className="icon1"/>
+              <span className="fw-bold">+253 77 86 11 43 / +253 77 22 63 43</span>
               </div>
               <div className="p-2">
-                <span className="fs-6 fw-bold"><i className="fas fa-envelope me-3"></i>safajetdjib@gmail.com</span>
+              <FaEnvelope size={30}  className="icon1"/>
+              <span className="fw-bold">safajetdjib@gmail.com</span>
               </div>
             </div>
           </div>
@@ -50,6 +55,7 @@ const Contact = () => {
            </div>
         </div>
         <Footer isVisible={isNavbarVisible} />
+        </ScrollAnimation>
       </section>
         )
     }
