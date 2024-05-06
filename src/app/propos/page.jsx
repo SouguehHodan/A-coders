@@ -198,7 +198,7 @@ const Propos = () => {
               </div>
             </div>
           </div>
-          <div className="w-100">
+          <div className="w-100 container bg-gris-fonce rounded-10px mb-5">
             <Formulaire isVisible={isNavbarVisible} />
           </div>
         </div>

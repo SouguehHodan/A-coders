@@ -32,6 +32,7 @@
   width: 50px;
   background-color: #FF1F1F;
   display: inline-block;
+  color: #FF1F1F;
 }
 
 .accueil-img{
@@ -44,7 +45,7 @@
   clip-path:polygon(30% 0%, 70% 0%, 100% 0, 100% 94%, 50% 98%, 0 94%, 0 0);
 }
 .btn1{
-  background-color: RED;
+  background-color: #FF1F1F;
   border-radius: 0;
   width: 20%;
   height: 45px;
@@ -63,14 +64,19 @@
   margin-left: 9%;
 }
 .container1{
-  color: red;
+  color: #FF1F1F;
   position: relative;
   right: 14%;
   font-size: 25px;
   margin-bottom: 2%;
 }
+.container1-2{
+  color: #FF1F1F;
+  font-weight: bold;
+  margin-bottom: 2%;
+}
 .acc-colo{
-  color: red;
+  color: #FF1F1F;
 }
 .button2{
   margin-right: 25%;
@@ -133,7 +139,7 @@
   width: 33rem;
   font-size: 13px;
   padding-left: 10PX;
-  border-left: 2px solid red;
+  border-left: 2px solid #FF1F1F;
 }
 
 @media screen and (max-width: 500px){
@@ -158,7 +164,7 @@
   margin-top: 15%;
   height: 140VH;
   padding: 8%;
-  background-color: rgb(239, 234, 226);
+  background-color:  #F6F3F3;
 }
 .section3 h3{
   width: 55%;
@@ -179,7 +185,7 @@
 }
 #section3-3{
   height: 35VH;
-  width: 50VH;
+  width: 46VH;
   padding: 15PX;
   background-color: white;
   border-radius: 10PX;
@@ -190,16 +196,16 @@
   margin: 5%;
 }
 .section3-3 h5{
-  color: RED;
+  color: #FF1F1F;
 }
 .icon{
   font-size: 35PX;
   font-weight: bold;
-  color: red;
+  color: #FF1F1F;
 }
 .icon1{
   font-weight: bold;
-  color: red;
+  color: #FF1F1F;
   margin: 1%;
 }
 
@@ -245,7 +251,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  border: 2px solid red;
+  border: 2px solid #FF1F1F;
 }
 #part2-1{
   width: 18%;
@@ -257,7 +263,7 @@
   font-size: 20px;
 }
 .fonction{
-  color: red;
+  color: #FF1F1F;
   font-size: 20PX;
   font-weight: bold;
   margin: 5%;
@@ -282,10 +288,14 @@
 
 .Partie-3{
   height: 150vh;
-  background-color: wheat;
+  background-color: #F6F3F3;
+}
+.Partie-3 .container1-2{
+  padding-top: 5%;
+  margin-left: 8%;
 }
 .Partie-3 h2{
-  padding-top: 5%;
+  padding-top: 1%;
   margin-left: 8%;
 }
 .partie3{
@@ -370,6 +380,22 @@
 
 #footer span{
   float: right;
+}
+#foote{
+  background-color: #D6D6D6;
+}
+.form_contact{
+  width: 65VH;
+}
+.container-F{
+  padding: 5%;
+  border-radius: 20px;
+  background-color: #F6F3F3;
+}
+.buttonfor{
+  background-color: #FF1F1F;
+  color: white;
+  border-radius: 20px;
 }
 
 /* animation */

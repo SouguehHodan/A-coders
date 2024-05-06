@@ -24,10 +24,10 @@ export default function Home() {
 
         <div className="container1">
           <h4 className="d-flex justify-content-center gap-3 text-red-1 fs-5">
-            <div className="spanline align-self-center "></div>  
+            <div className="spanline align-self-center"></div>  
               LE FUTUR DU WEB COMMENCE MAINTENANT 
               <div className="spanline align-self-center"></div>
-            </h4>
+          </h4>
         </div>
 
           <h1 className="text-white fw-boldn mb-4"><span className="acc-colo">A-CODERS</span>, VOTRE PARTENAIRE POUR 
@@ -72,8 +72,13 @@ export default function Home() {
         </div>
       </div>
       <div className="section2">
+        <div className="container1-2">
+          <h4 className="d-flex justify-content-start gap-3 text-red-1 fs-5">
+            A PROPOS DE NOUS <div className="spanline align-self-center "></div>  
+          </h4>
+        </div>
         <h2 className="fs-3">RENCONTREZ A-CODERS : VOTRE PARTENAIRE 
-            WEB POUR L'INNOVATION ET LA QUALITÉ</h2>
+          WEB POUR L'INNOVATION ET LA QUALITÉ</h2>
         <p className="mt-4">
           Bienvenue chez A-Coders ! Nous sommes une équipe de développeurs passionnés, 
           dédiés à créer des sites web exceptionnels et sur mesure. Notre approche repose sur la 
@@ -88,6 +93,13 @@ export default function Home() {
     </div>
 
     <div className="section3">
+      <div className="container1-2">
+        <h4 className="d-flex justify-content-center gap-3 text-red-1 fs-5">
+          <div className="spanline align-self-center "></div>  
+            NOS SERVICE
+          <div className="spanline align-self-center"></div>
+        </h4>
+      </div>
       <h3>PLONGEZ DANS NOTRE ÉVENTAIL COMPLET DE SERVICES WEB INNOVANTS</h3>
       <div className="section3-1">
         <div className="row">
@@ -152,60 +164,63 @@ export default function Home() {
     </div>
 
     <div className="Partie-2">
+      <div className="container1-2">
+        <h4 className="d-flex justify-content-center gap-3 text-red-1 fs-5">
+          <div className="spanline align-self-center "></div>  
+            NOS EQUIPE
+          <div className="spanline align-self-center"></div>
+        </h4>
+      </div>
       <h2>PLONGEZ DANS NOTRE ÉQUIPE: DES EXPERTS UNIS POUR RÉALISER VOS PROJETS WEB</h2>
       <div className="row" id="part2">
  
-<div id="carouselExampleIndicators" data-mdb-carousel-init class="carousel slide carousel-fade" data-mdb-ride="carousel">
- 
-  <div class="carousel-inner mb-5">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(88).webp" className="d-block w-100" alt="..." />
+          <Image src="/accueil2.jpeg"
+            width={260}
+            height={220}
+            className="d-block w-100"
+            alt="c'est moi"
+          />
     </div>
     <div class="carousel-item">
-      <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(121).webp" className="d-block w-100"
-        alt="..." />
+    <Image src="/accueil2.jpeg"
+            width={260}
+            height={220}
+            className="d-block w-100"
+            alt="c'est moi"
+          />
     </div>
     <div class="carousel-item">
-      <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(31).webp" className="d-block w-100" alt="..." />
+    <Image src="/accueil2.jpeg"
+            width={260}
+            height={220}
+            className="d-block w-100"
+            alt="c'est moi"
+          />
     </div>
   </div>
-
-  <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleIndicators"
-    data-mdb-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleIndicators"
-    data-mdb-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
-  
-  <div className="carousel-indicators">
-    <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="0" className="active w-100"
-      aria-current="true" aria-label="Slide 1">
-      <img className="d-block w-100"
-        src="https://mdbcdn.b-cdn.net/img/Photos/Others/Carousel-thumbs/img%20(88).webp"/>
-    </button>
-    <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="1"
-      aria-label="Slide 2" >
-      <img className="d-block w-100"
-        src="https://mdbcdn.b-cdn.net/img/Photos/Others/Carousel-thumbs/img%20(121).webp" />
-    </button>
-    <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="2"
-      aria-label="Slide 3" >
-      <img className="d-block w-100"
-        src="https://mdbcdn.b-cdn.net/img/Photos/Others/Carousel-thumbs/img%20(31).webp"/>
-    </button>
-  </div>
- 
 </div>
-
 
       </div>
     </div>
     <div className="Partie-3">
-      <h2>EXPLOREZ NOTRE GALERIE DE RÉALISATIONS</h2>
+      <div className="container1-2">
+        <h4 className="d-flex justify-content-start gap-3 text-red-1 fs-5">
+          A PROPOS DE NOUS <div className="spanline align-self-center "></div>  
+        </h4>
+      </div>
+      <h2>
+        EXPLOREZ NOTRE GALERIE DE RÉALISATIONS</h2>
       <div className="partie3">
         <div className="partie3-1"> 
           <div className="partie3-2">
@@ -239,6 +254,13 @@ export default function Home() {
     </div>
 
     <div className="Partie-4">
+      <div className="container1-2">
+        <h4 className="d-flex justify-content-center gap-3 text-red-1 fs-5">
+          <div className="spanline align-self-center "></div>  
+            QUESTIONS FRÉQUANTES
+          <div className="spanline align-self-center"></div>
+        </h4>
+      </div>
       <h2>FAQ (FOIRE AUX QUESTIONS)</h2>
       <div className="partie4">
         <Image

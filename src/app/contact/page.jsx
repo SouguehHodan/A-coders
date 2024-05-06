@@ -28,25 +28,25 @@ const Contact = () => {
         <div className="container w-100 d-flex flex-wrap gap-5">
           <div className="acc_conc">
             <h3 className="fs-1 mb-4">Contactez-nous</h3>
-            <p className="fs-5">
+            <p>
               Que ce soit pour discuter de vos besoins d'impression 
               numérique, obtenir des informations supplémentaires sur nos 
               services, ou pour toute autre demande, l'équipe de Safa Jet est 
               à votre disposition. N'hésitez pas à nous contacter selon vos 
-              préférences :
+              préférences:
             </p>
             <div>
               <div className="p-2">
-              <FaMapMarkerAlt size={30} className="iconoiji1"/>
-              <span className="fw-bold">Centre-Ville, Rue de Berne, Djibouti</span>
+              <FaMapMarkerAlt size={30} className="icon1"/>
+              <span className="fw-bold fs-6 ms-3">Centre-Ville, Rue de Berne, Djibouti</span>
               </div>
               <div className="p-2">
               <FaPhone size={30}  className="icon1"/>
-              <span className="fw-bold">+253 77 86 11 43 / +253 77 22 63 43</span>
+              <span className="fw-bold fs-6 ms-3">+253 77 86 11 43 / +253 77 22 63 43</span>
               </div>
               <div className="p-2">
               <FaEnvelope size={30}  className="icon1"/>
-              <span className="fw-bold">safajetdjib@gmail.cogggm</span>
+              <span className="fw-bold fs-6 ms-3">safajetdjib@gmail.com</span>
               </div>
             </div>
           </div>

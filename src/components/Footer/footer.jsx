@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { FaFacebookSquare, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 
 const Footer =({ isVisible }) => {
     if (!isVisible) {
@@ -6,7 +7,7 @@ const Footer =({ isVisible }) => {
     }
   
     return (
-<footer className="text-center text-lg-start text-muted bg-gris-fonce">
+<footer className="text-center text-lg-start text-muted" id="foote">
   <section className="d-flex justify-content-center justify-content-lg-between">
     <div>
       <a href="" className="me-4 text-reset">
@@ -44,9 +45,15 @@ const Footer =({ isVisible }) => {
             ligne de code par ligne de code. Joignez-vous à nous 
             dans cette aventure vers l'innovation et l'excellence en ligne.
           </p>
-          <p>
+          <div>
             <span className="text-red text-capitalize fw-bolder fs-5"> suivez nous :</span>
-          </p>
+            <div>
+              <a href="lien_vers_votre_page_facebook" target="_blank" rel="noopener noreferrer"><FaFacebookSquare size={30} className="icon1"/></a>
+              <a href="lien_vers_votre_compte_instagram" target="_blank" rel="noopener noreferrer"><FaInstagram size={30} className="icon1"/></a>
+              <a href="lien_vers_votre_compte_twitter" target="_blank" rel="noopener noreferrer"><FaTwitter size={30} className="icon1"/></a>
+              <a href="lien_vers_votre_chaine_youtube" target="_blank" rel="noopener noreferrer"><FaYoutube size={30} className="icon1"/></a>
+            </div>
+          </div>
         </div>
         <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
           <h6 className="text-uppercase fw-bold mb-4">

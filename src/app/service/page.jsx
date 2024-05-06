@@ -19,9 +19,9 @@ const Propos = () => {
           <div className="text-white ps-5 pt-5" id="service">
             <h1 className="text-white fw-boldn mb-4 fs-1 text-uppercase">NOS SERVICE WEB</h1>
             <p className="text-white mb-5 fs-7">
-                Découvrez notre gamme complète de services web conçus pour répondre à vos besoins <br />
-                numériques. De la conception à la mise en œuvre, nous sommes là pour vous accompagner à <br />
-                chaque étape de votre projet en ligne. Explorez nos services ci-dessous pour voir comment  <br />
+                Découvrez notre gamme complète de services web conçus pour répondre à vos besoins
+                numériques. De la conception à la mise en œuvre, nous sommes là pour vous accompagner à
+                chaque étape de votre projet en ligne. Explorez nos services ci-dessous pour voir comment
                 nous pouvons vous aider à atteindre vos objectifs sur le web.
             </p>
           </div>
@@ -36,9 +36,9 @@ const Propos = () => {
 
         <div>
 
-        <div className="row bg-gris-clear">
+        <div className="row bg-gris-clear" id="servi1">
             <div className="col-sm-6 pt-4 pb-5 order-sm-2">
-                <h1 className="text-capitalize text-red-1">
+                <h1 className=" text-red-1">
                     <Image
                         src='/arrow.png'
                         width={50}
@@ -47,7 +47,7 @@ const Propos = () => {
                     /> 
                     Développement web
                 </h1>
-                <p className="fw-bolder">
+                <p className="mt-5">
                     Notre service de développement web vous offre une expertise <br />
                     technique de pointe pour créer des sites web sur mesure qui <br />
                     captivent et convertissent. De la conception initiale à la mise <br />
@@ -86,7 +86,7 @@ const Propos = () => {
                     /> 
                     Location de site web
                 </h1>
-                <p className="fw-bolder">
+                <p className="mt-5">
                     Notre service de location de site web offre une solution flexible et abordable pour établir votre présence en ligne sans les coûts initiaux élevés associés au développement traditionnel de site web. Avec notre vaste sélection de modèles professionnels, nous personnalisons votre site web selon vos besoins spécifiques, puis le mettons en ligne rapidement. Profitez de la maintenance continue incluse dans votre abonnement pour assurer le bon fonctionnement de votre site web à tout moment, sans tracas ni frais supplémentaires. Choisissez la location de site web avec ACoders et concentrez-vous sur la croissance de votre entreprise, sans vous soucier de la gestion technique de votre site web.
                 </p>
                 <a href="/contact" className="btn btn-red" role="button" id='btn'>Découvrez nos offres de location </a>
@@ -103,7 +103,7 @@ const Propos = () => {
             </div>
         </div>
 
-        <div className="row bg-gris-clear">
+        <div className="row bg-gris-clear" id="servi1">
             <div className="col-sm-6 pt-4 pb-5 order-sm-2">
                 <h1 className="text-capitalize text-red-1">
                     <Image
@@ -114,7 +114,7 @@ const Propos = () => {
                     /> 
                     Maintenance d’un site web
                 </h1>
-                <p className="fw-bolder">
+                <p className="mt-5">
                     Notre service de maintenance de site web vous assure une <br />
                     tranquillité d'esprit totale en veillant au bon fonctionnement <br />
                     continu de votre présence en ligne. Nous prenons en charge <br />
@@ -154,7 +154,7 @@ const Propos = () => {
                     /> 
                     Design Web
                 </h1>
-                <p className="fw-bolder">
+                <p className="mt-5">
                     Notre service de conception web allie esthétique et <br />
                     fonctionnalité pour créer des expériences en ligne captivantes. <br />
                     Grâce à une approche centrée sur l'utilisateur et à une maîtrise <br />
@@ -182,7 +182,7 @@ const Propos = () => {
             </div>
         </div>
 
-        <div className="row bg-gris-clear">
+        <div className="row bg-gris-clear" id="servi1">
             <div className="col-sm-6 pt-4 pb-5 order-sm-2">
                 <h1 className="text-capitalize text-red-1">
                     <Image
@@ -193,7 +193,7 @@ const Propos = () => {
                     /> 
                     Service SEO (Optimisation pour les moteurs de recherche)
                 </h1>
-                <p className="fw-bolder">
+                <p className="mt-5">
                 Notre service SEO (Optimisation pour les moteurs de <br />
                 recherche) vise à améliorer la visibilité de votre site web dans <br />
                 les résultats de recherche organiques. Grâce à une <br />
@@ -230,7 +230,7 @@ const Propos = () => {
                     /> 
                     Service d'Analyse de Données
                 </h1>
-                <p className="fw-bolder">
+                <p className="mt-5">
                 Notre service d'analyse de données offre des insights précieux <br />
                 pour guider vos décisions commerciales et optimiser vos <br />
                 performances en ligne. En utilisant des outils avancés <br />
