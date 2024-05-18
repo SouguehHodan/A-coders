@@ -2,6 +2,7 @@ import Image from "next/image";
 import Navbar from "@/components/Navbar/navbar"
 import Footer from "@/components/Footer/footer"
 import Formulaire from "@/components/Formulaire/form"
+import Swiper from "@/components/swiper/swiper";
 import { Span } from "next/dist/trace";
 import { BsCodeSlash } from 'react-icons/bs';
 import { BiMap } from 'react-icons/bi';
@@ -173,44 +174,7 @@ export default function Home() {
       </div>
       <h2>PLONGEZ DANS NOTRE ÉQUIPE: DES EXPERTS UNIS POUR RÉALISER VOS PROJETS WEB</h2>
       <div className="row" id="part2">
- 
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-          <Image src="/accueil2.jpeg"
-            width={260}
-            height={220}
-            className="d-block w-100"
-            alt="c'est moi"
-          />
-    </div>
-    <div class="carousel-item">
-    <Image src="/accueil2.jpeg"
-            width={260}
-            height={220}
-            className="d-block w-100"
-            alt="c'est moi"
-          />
-    </div>
-    <div class="carousel-item">
-    <Image src="/accueil2.jpeg"
-            width={260}
-            height={220}
-            className="d-block w-100"
-            alt="c'est moi"
-          />
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-
+        <Swiper/>
       </div>
     </div>
     <div className="Partie-3">

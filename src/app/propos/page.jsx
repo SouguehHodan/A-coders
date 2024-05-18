@@ -16,6 +16,7 @@ const Propos = () => {
       <section>
         <Navbar isVisible={isNavbarVisible} />
         <div className="propos-img">
+          
           <div className="text-white ps-5 pt-5" id="propos">
           <h1 className="text-white fw-boldn mb-4 fs-1 text-uppercase">A PROPOS DE NOUS</h1>
           <p className="text-white mb-5 fs-7">
