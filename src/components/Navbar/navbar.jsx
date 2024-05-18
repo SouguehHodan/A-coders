@@ -5,6 +5,7 @@ import './navbar.css';
 // import 'animate.css';
 import Image from "next/image";
 import {useState ,useEffect} from 'react';
+import './navbar.css'
 
 const Navbar =({ isVisible }) => {
   // state 
@@ -33,7 +34,7 @@ const Navbar =({ isVisible }) => {
             <div className="container-fluid">
               <div className="d-flex align-items-center justify-content-between mb-2 pb-1">
                 <i className="fas fa-cubes fa-2x me-4"></i>
-                <span className="h2 fw-bold mb-0  text-white">
+                <span className="h2 fw-bold mb-0 text-white" id="nav-img">
                   <Image
                     src="/logo.png"
                     width={200}
