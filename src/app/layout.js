@@ -1,9 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.css'
 import { Inter } from "next/font/google";
+import "./globals.css";
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
-import "./globals.css";
 import BootstrapClient from '@/components/BootstrapClient'
 
 const inter = Inter({ subsets: ["latin"] });

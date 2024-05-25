@@ -1,5 +1,7 @@
 import Image from "next/image";
 import { FaFacebookSquare, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
+
 
 const Footer =({ isVisible }) => {
     if (!isVisible) {
@@ -80,9 +82,9 @@ const Footer =({ isVisible }) => {
         <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
           <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
           <div className="d-flex flex-column">
-            <span className="d-block fw-bold"><i className="fas fa-home me-3"></i>+25377885799</span>
-            <span className="d-block fw-bold"><i className="fas fa-envelope me-3"></i>a-coders@gamil.com</span>
-            <span className="d-block fw-bold"><i className="fas fa-phone me-3"></i>Avenue 26, Q5 ,Djibouti</span>
+            <span className="d-block fw-bold"><FaPhone size={25}  className="icon1"/>+25377885799</span>
+            <span className="d-block fw-bold"><FaEnvelope size={25}  className="icon1"/>a-coders@gamil.com</span>
+            <span className="d-block fw-bold"><FaMapMarkerAlt size={25} className="icon1"/>Avenue 26, Q5 ,Djibouti</span>
           </div>
         </div>
       </div>

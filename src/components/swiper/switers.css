@@ -62,8 +62,10 @@ body {
   background: var(--bg);
 }
 
-.container {
-  max-width: 124rem;
+.container2 {
+  max-width: 100rem;
+  max-height: 100rem;
+  border: 2px solid black;
   padding: 0 1rem;
   margin: 0 auto;
 }
@@ -84,7 +86,7 @@ body {
 
 @media (max-width:1440px) {
   #tranding {
-    padding: 7rem 0;
+    padding: 10rem 0;
   }
 }
 
@@ -105,23 +107,23 @@ body {
   height: 42rem;
   position: relative;
 }
+.tranding-slide .tranding-slide-img img {
+  width: 100rem;
+  height: 42rem;
+  background-color: #797979;
+  border-radius: 2rem;
+  object-fit: cover;
+}
 
 @media (max-width:500px) {
   .tranding-slide {
     width: 28rem !important;
     height: 36rem !important;
   }
-  .tranding-slide .tranding-slide-img img {
+  .tranding-slide .tranding-slide-img img{
     width: 28rem !important;
     height: 36rem !important;
   }
-}
-
-.tranding-slide .tranding-slide-img img {
-  width: 37rem;
-  height: 42rem;
-  border-radius: 2rem;
-  object-fit: cover;
 }
 
 .tranding-slide .tranding-slide-content {

@@ -207,7 +207,7 @@
 .icon1{
   font-weight: bold;
   color: #FF1F1F;
-  margin: 1%;
+  margin: 2%;
 }
 
 @media screen and (max-width: 500px){
@@ -249,10 +249,7 @@
   margin-bottom: 8%;
 }
 #part2{
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  border: 2px solid #FF1F1F;
+  width: 100%;
 }
 #part2-1{
   width: 18%;
