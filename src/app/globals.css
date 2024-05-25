@@ -26,6 +26,15 @@
     width: auto;
   }
 }
+
+.spanline{
+  height: 2px;
+  width: 50px;
+  background-color: #FF1F1F;
+  display: inline-block;
+  color: #FF1F1F;
+}
+
 .accueil-img{
   width: 100%;
   height: 100vh;
@@ -36,7 +45,7 @@
   clip-path:polygon(30% 0%, 70% 0%, 100% 0, 100% 94%, 50% 98%, 0 94%, 0 0);
 }
 .btn1{
-  background-color: RED;
+  background-color: #FF1F1F;
   border-radius: 0;
   width: 20%;
   height: 45px;
@@ -55,14 +64,19 @@
   margin-left: 9%;
 }
 .container1{
-  color: red;
+  color: #FF1F1F;
   position: relative;
   right: 14%;
   font-size: 25px;
   margin-bottom: 2%;
 }
+.container1-2{
+  color: #FF1F1F;
+  font-weight: bold;
+  margin-bottom: 2%;
+}
 .acc-colo{
-  color: red;
+  color: #FF1F1F;
 }
 .button2{
   margin-right: 25%;
@@ -81,10 +95,9 @@
   #accueil{
     top: 10%;
   }
-  .container{
+  .container1{
     width: 100%;
-    font-size: 0.8rem;
-    border: 2px solid black;
+    font-size: 0.6rem;
   }
   #accueil h1{
     font-size: 25px;
@@ -96,11 +109,16 @@
   #btn{
     width: auto;
   }
+  #button{
+    margin-bottom: 5%;
+    margin-left: 5%;
+  }
 }
 
 .partie2{
   width: 100%;
   margin-top: 10%;
+  margin-left: 10px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -110,19 +128,19 @@
 }
 .section-img{
   position: absolute;
-  left: 30vh;
+  left: 35vh;
   top: 3vh;
 }
 .section2{
   width: 50%;
-  margin-left: 15%;
+  margin-left: 14%;
   font-size: 1rem;
 }
 .title2{
   width: 33rem;
   font-size: 13px;
   padding-left: 10PX;
-  border-left: 2px solid red;
+  border-left: 2px solid #FF1F1F;
 }
 
 @media screen and (max-width: 500px){
@@ -138,12 +156,16 @@
     width: 100%;
   }
 }
-
+@media screen and (max-width: 1350px){
+  .section-img{
+    display: none;
+  }  
+}
 .section3{
   margin-top: 15%;
   height: 140VH;
   padding: 8%;
-  background-color: rgb(239, 234, 226);
+  background-color:  #F6F3F3;
 }
 .section3 h3{
   width: 55%;
@@ -162,9 +184,9 @@
   flex-direction: row;
   /* background-color: rgba(25, 64, 181, 0.6); */
 }
-.section3-3{
-  height: 28VH;
-  width: 50VH;
+#section3-3{
+  height: 35VH;
+  width: 46VH;
   padding: 15PX;
   background-color: white;
   border-radius: 10PX;
@@ -175,12 +197,17 @@
   margin: 5%;
 }
 .section3-3 h5{
-  color: RED;
+  color: #FF1F1F;
 }
 .icon{
   font-size: 35PX;
   font-weight: bold;
-  color: red;
+  color: #FF1F1F;
+}
+.icon1{
+  font-weight: bold;
+  color: #FF1F1F;
+  margin: 2%;
 }
 
 @media screen and (max-width: 500px){
@@ -195,12 +222,11 @@
     flex-direction: column;
     /* background-color: rgba(25, 64, 181, 0.6); */
   }
-
-  .section3-3{
+  #section3-3{
     width: 100%;
     margin-left: 0;
+    font-size: 14px;
   }
-
   .section2{
     width: 100%;
     margin-left: 15%;
@@ -222,13 +248,11 @@
   margin: auto;
   margin-bottom: 8%;
 }
-.part2{
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+#part2{
+  width: 100%;
 }
-.part2-1{
-  width: 20%;
+#part2-1{
+  width: 18%;
   height: 60vh;
   text-align: center;
   border: 1px solid black;
@@ -237,7 +261,7 @@
   font-size: 20px;
 }
 .fonction{
-  color: red;
+  color: #FF1F1F;
   font-size: 20PX;
   font-weight: bold;
   margin: 5%;
@@ -248,7 +272,7 @@
     height: 100%;
   }
   .Partie-2 h2{
-    width: 65%;
+    width: 100%;
   }
   .part2{
     width: 100%;
@@ -262,10 +286,14 @@
 
 .Partie-3{
   height: 150vh;
-  background-color: wheat;
+  background-color: #F6F3F3;
+}
+.Partie-3 .container1-2{
+  padding-top: 5%;
+  margin-left: 8%;
 }
 .Partie-3 h2{
-  padding-top: 5%;
+  padding-top: 1%;
   margin-left: 8%;
 }
 .partie3{
@@ -282,7 +310,7 @@
   height: 38VH;
   width: 50VH;
   background-color: white;
-  margin: 20px;
+  margin: 15px;
 }
 
 @media screen and (max-width: 500px){
@@ -313,6 +341,16 @@
 .partie4-1{
   width: 50%;
 }
+.acc-conc{
+  width: 50%;
+  margin-top: 3%;
+}
+#acc-conc{
+  margin-bottom: 8%;
+}
+.acc-conc p{
+  width: 80%;
+}
 
 @media screen and (max-width: 500px){
   .Partie-4{
@@ -326,92 +364,6 @@
     margin-top: 5%;
     width: 100%;
   }
-}
-
-/* contact */
-
-#acc-conc{
-  margin-top: 0%;
-} 
-.acc-conc{
-  width: 45%;
-  font-size: 13px;
-
-}
-.acc-conc h3{
-  color: var(--b-button);
-}
-.acc-conc1{
-  width: 60%;
-}
-#bg-gris{
-  width: 50%;
-  background-color: #D6D6D6;
-  
-}  
-.bg-gris-clear{
-  background-color: #F6F3F3;
-  padding: 10px;
-}  
-.btn-red{
-  color: white;
-  background-color: #FF1F1F;
-  transition: all 0.5 ease;
-}
-
-.ml-4{
-  margin-left: 100px;
-}
-.marginR{
-  margin-right: 24px;
-}
-
-
-
-.btn-red:hover{
-  color: white;
-  background-color: #df1717;
-}
-.bg-red{
-  background-color: #df1717;
-}
-.text-red{
-  color: #df1717;
-}
-.text-red-1{
-  color: #FF1F1F;
-}
-.text-gris-fonce{
-  color: #3E495B;
-}
-.rounded-10px{
-  border-radius: 10px !important;
-}
-.divborn{
-  position: relative;
-  width: 400px;
-  height: 300px;
-  cursor: pointer;
-  transition: all 0.5 ease;
-}
-.divborn:hover{
-  outline: 2px solid #FF1F1F;
-}
-.posA{
-  position: absolute;
-  width: 300px;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-.img{
-  width: 400px !important;
-  height: 300px !important;
-  object-fit: cover;
-  object-position: 10% 100%;
-}
-
-@media screen and (max-width: 500px){
   #acc-conc{
     flex-direction: column;
     margin-bottom: 10%;
@@ -419,194 +371,39 @@
   .acc-conc{
     width: 100%;
   }
-  /* .w-50{
-    width: 100%;
-    border: 2px solid black;
-  } */
-}
-
-
-/* propos */
-.propos-img{
-  margin-bottom: 10%;
-  width: 100%;
-  height: 70vh;
-  /* background-image:url(../../public/couverture.jpg); */
-  background-image:linear-gradient(rgba(68, 85, 138, 0.6),rgba(52, 57, 111, 0.9)),url(../../public/accueil1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.spanline{
-  height: 2px;
-  width: 50px;
-  background-color: #FF1F1F;
-  display: inline-block;
-}
-/* #propos{
-  position: absolute;
-  top: 30%;
-  left: 20%;
-  text-align: center;
-  width: 55%;
-}
-#propos p{
-  width: 70%;
-  margin-left: 15%;
-} */
-.img-propos{
-  position: relative;
-  margin-left: 18%;
-}
-.img-propos1 {
-  position: absolute;
-  top: 135vh;
-  left: 37vh;
-}
-
-@media screen and (max-width: 500px){
-  #propos{
-    top: 20%;
-    left: 0;
-    width: 75%;
-  }
-  #propos h1{
-    margin-left: 5%;
+  .form_contact{
     width: 100%;
   }
-  #propos p{
-    margin-left: 8%;
-    width: 100%; 
-    font-size: 18px;
-  }
-  #img-propo{
-    display: none;
-  }
-  #propos-sect{
-    width: 40%;
-    line-height: 3vh;
-  }
-  #propos-sect h3{
-    margin-bottom: 10%;
-  }
-  #propos-sect a{
-    margin-top: 8%;
-  }
-}
-
-#propos-sect{
-  width: 40%;
-  line-height: 3vh;
-}
-#propos-sect h3{
-  margin-bottom: 10%;
-}
-#propos-sect a{
-  margin-top: 8%;
-}
-
-@media screen and (max-width: 500px){
-  #propos-sect{
-    width: 100%;
-    margin-top: 10%;
-  }
-  #propos-sect h3{
-    margin-bottom: 10%;
-  }
-  #propos-sect a{
-    margin-top: 8%;
-  }
-}
-
-.pro-sec2{
-  margin-top: 20%;
-  margin-bottom: 10%;
-  padding-left: 10%;
-  background-color: rgb(239, 234, 226);
-  height: 120vh;
-}
-.pro-sec2 h4{
-  padding-top: 5%;
-  padding-bottom: 4%;
-  width: 40%;
-}
-.pro-sec2 p{
-  width: 90%;
-  margin-bottom: 5%;
-}
-.pro-sec2 part2{
-  justify-content: s;
-}
-.propos2{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.pro2-1{
-  width: 20%;
-  height: 60vh;
-  margin-right: 5%;
-  text-align: center;
-  background-color: white;
-  border: 1px solid black;
-}
-
-@media screen and (max-width: 500px){
-  .pro-sec2{
-    height: 200%;
-    margin-bottom: 10%;
-  }
-  .pro-sec2 h4{
-    width: 80%;
-    font-size: 20px;
-  }
-  .pro-sec2 p{
-    width: 100%;
-    font-size: 2%;
-  }
-  .propos2{
-    width: 100%;
-    flex-direction: column;
-  }
-  .pro2-1{
-    width: 100%;
-    margin: 10%;
-    margin-left: 0;
-  }
-}
-
-.propos3 h4{
-  padding-left: 8%;
-}
-.pro3{
-  width: 100%;
-  padding: 8%;
-  display: flex;
-  flex-direction: column;
-}
-.pro3-1{
-  display: flex;
-  flex-direction: row;
-}
-.pro3-2{
-  height: 38VH;
-  width: 50VH;
-  border: 1px solid black;
-  margin: 20px;
-}
-
-@media screen and (max-width: 500px){
-  .propos3 h4{
-    margin-top: 10%;
-  }
-  .pro3-1{
-    margin: 0;
-    flex-direction: column;
-  }
-  .pro3-2{
-    width: 100%;
-  }
-}
+} 
 
 #footer span{
   float: right;
+}
+#foote{
+  background-color: #D6D6D6;
+}
+.form_contact{
+  width: 65VH;
+}
+.container-F{
+  padding: 5%;
+  border-radius: 20px;
+  background-color: #F6F3F3;
+}
+.buttonfor{
+  background-color: #FF1F1F;
+  color: white;
+  border-radius: 20px;
+}
+
+/* animation */
+
+/* styles/globals.css */
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.fade-in.visible {
+  opacity: 1;
 }

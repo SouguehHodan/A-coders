@@ -1,22 +1,11 @@
 /* styles.css */
-
-.section {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2em;
-}
-
-.animate {
-  opacity: 1;
-  transform: translateY(0);
-  transition: opacity 0.5s, transform 0.5s;
-}
-
-.animate:not(.active) {
+/* styles/globals.css */
+.fade-in {
   opacity: 0;
-  transform: translateY(20px);
+  transition: opacity 0.5s ease;
+  color: blue;
 }
 
-  
+.fade-in.visible {
+  opacity: 10;
+}

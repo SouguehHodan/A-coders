@@ -2,11 +2,14 @@ import Image from "next/image";
 import Navbar from "@/components/Navbar/navbar"
 import Footer from "@/components/Footer/footer"
 import Formulaire from "@/components/Formulaire/form"
+import MySwiper from '@/components/swiper/swiper';
 import { Span } from "next/dist/trace";
 import { BsCodeSlash } from 'react-icons/bs';
 import { BiMap } from 'react-icons/bi';
 import { BiGlobe } from 'react-icons/bi';
 import { BiCog } from 'react-icons/bi'
+import { BiCode } from 'react-icons/bi';
+import { FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 
 export default function Home() {
 
@@ -21,11 +24,11 @@ export default function Home() {
         <div className="text-white ps-5 pt-5" id="accueil">
 
         <div className="container1">
-          <div className="fw-bold">
-            <span className="text-danger">---------- </span>
-            <span className="text">LE FUTUR DU WEB COMMENCE MAINTENAN</span>
-            <span className="dash"> ----------</span>
-          </div>
+          <h4 className="d-flex justify-content-center gap-3 text-red-1 fs-5">
+            <div className="spanline align-self-center"></div>  
+              LE FUTUR DU WEB COMMENCE MAINTENANT 
+              <div className="spanline align-self-center"></div>
+          </h4>
         </div>
 
           <h1 className="text-white fw-boldn mb-4"><span className="acc-colo">A-CODERS</span>, VOTRE PARTENAIRE POUR 
@@ -37,10 +40,8 @@ export default function Home() {
             évolution
           </p>
           <div className="button2">
-
-          <button type="button" class="btn btn-danger me-3 text-capitalize">voire notre portfolio</button>
-          <button type="button" class="btn btn-outline-danger text-white text-capitalize">en savoir plus</button>
-
+          <button type="button" className="btn btn-danger me-3" id="button">Voir notre Portfolio </button>
+          <button type="button" className="btn btn-outline-danger">En Savoir plus</button>
           </div>
         </div>
       </div>
@@ -72,8 +73,13 @@ export default function Home() {
         </div>
       </div>
       <div className="section2">
+        <div className="container1-2">
+          <h4 className="d-flex justify-content-start gap-3 text-red-1 fs-5">
+            A PROPOS DE NOUS <div className="spanline align-self-center "></div>  
+          </h4>
+        </div>
         <h2 className="fs-3">RENCONTREZ A-CODERS : VOTRE PARTENAIRE 
-            WEB POUR L'INNOVATION ET LA QUALITÉ</h2>
+          WEB POUR L'INNOVATION ET LA QUALITÉ</h2>
         <p className="mt-4">
           Bienvenue chez A-Coders ! Nous sommes une équipe de développeurs passionnés, 
           dédiés à créer des sites web exceptionnels et sur mesure. Notre approche repose sur la 
@@ -83,15 +89,22 @@ export default function Home() {
         </p>
         <h5 className="title2">Découvrez notre équipe passionnée et notre engagement envers des sites web 
             d'exception. Chez A-Coders, votre succès en ligne est notre priorité.</h5>
-        <button type="button" class="btn btn-danger mt-3">Danger</button>
+        <button type="button" className="btn btn-danger mt-3">Danger</button>
       </div>
     </div>
 
     <div className="section3">
+      <div className="container1-2">
+        <h4 className="d-flex justify-content-center gap-3 text-red-1 fs-5">
+          <div className="spanline align-self-center "></div>  
+            NOS SERVICE
+          <div className="spanline align-self-center"></div>
+        </h4>
+      </div>
       <h3>PLONGEZ DANS NOTRE ÉVENTAIL COMPLET DE SERVICES WEB INNOVANTS</h3>
       <div className="section3-1">
-        <div className="section3-2">
-          <div className="section3-3">
+        <div className="row">
+          <div className="col-sm-3 p-5" id="section3-3">
             <h5><BsCodeSlash className="icon"/>Developpement Web</h5>
             <p> Notre service de développement web 
                 transforme vos idées en sites web fonctionnels 
@@ -100,7 +113,7 @@ export default function Home() {
                 nous pour donner vie à votre présence en ligne.</p>
             <a href="#">En savoir plus</a>
           </div>
-          <div className="section3-3">
+          <div className="col-sm-3 p-5" id="section3-3">
             <h5><BiGlobe className="icon"/>Location du Site Web</h5>
             <p> Notre service de location de site web offre une 
                 solution abordable et sans engagement pour 
@@ -109,7 +122,7 @@ export default function Home() {
                 maintenance continue.</p>
             <a href="#">En savoir plus</a>
           </div>
-          <div className="section3-3">
+          <div className="col-sm-3 p-5" id="section3-3">
             <h5><BiCog className="icon"/>Maintenance d’un site web</h5>
             <p> Assurez la performance optimale de votre site 
                 web avec notre service de maintenance. Nous 
@@ -119,9 +132,9 @@ export default function Home() {
             <a href="#">En savoir plus</a>
           </div>
         </div>
-        <div className="section3-2">
-          <div className="section3-3">
-            <h5><BsCodeSlash className="icon"/>Developpement Web</h5>
+        <div className="row">
+          <div className="col-sm-3 p-5" id="section3-3">
+            <h5><BiCode className="icon"/>Developpement Web</h5>
             <p> Notre service de développement web 
                 transforme vos idées en sites web fonctionnels 
                 et esthétiques, adaptés à vos besoins 
@@ -129,7 +142,7 @@ export default function Home() {
                 nous pour donner vie à votre présence en ligne.</p>
             <a href="#">En savoir plus</a>
           </div>
-          <div className="section3-3">
+          <div className="col-sm-3 p-5" id="section3-3">
             <h5><BiGlobe className="icon"/>Location du Site Web</h5>
             <p> Notre service de location de site web offre une 
                 solution abordable et sans engagement pour 
@@ -138,7 +151,7 @@ export default function Home() {
                 maintenance continue.</p>
             <a href="#">En savoir plus</a>
           </div>
-          <div className="section3-3">
+          <div className="col-sm-3 p-5" id="section3-3">
             <h5><BiCog className="icon"/>Maintenance d’un site web</h5>
             <p> Assurez la performance optimale de votre site 
                 web avec notre service de maintenance. Nous 
@@ -152,64 +165,28 @@ export default function Home() {
     </div>
 
     <div className="Partie-2">
+      <div className="container1-2">
+        <h4 className="d-flex justify-content-center gap-3 text-red-1 fs-5">
+          <div className="spanline align-self-center "></div>  
+            NOS EQUIPE
+          <div className="spanline align-self-center"></div>
+        </h4>
+      </div>
       <h2>PLONGEZ DANS NOTRE ÉQUIPE: DES EXPERTS UNIS POUR RÉALISER VOS PROJETS WEB</h2>
-      <div className="part2">
-        <div className="part2-1">
-          <Image
-            src="/perso1.JPG"
-            width={320}
-            height={350}
-            className="ms-1 mb-5 mt-1"
-            alt="c'est moi"
-          />
-          <br/>
-          <span>Abdourahman</span>
-          <br/>
-          <span className="fonction">DEVELOPPEUR BACK-END</span>
-        </div>
-        <div className="part2-1">
-          <Image
-            src="/perso1.JPG"
-            width={320}
-            height={350}
-            className="ms-1 mb-5 mt-1"
-            alt="c'est moi"
-          />
-          <br/>
-          <span>Zakaria Ali</span>
-          <br/>
-          <span className="fonction">GRAPHIC DESIGNER MAQUETTISTE</span>
-        </div>
-        <div className="part2-1">
-          <Image
-            src="/perso2.JPG"
-            width={320}
-            height={350}
-            className="ms-1 mb-5"
-            alt="c'est moi"
-          />
-          <br/>
-          <span>Habon Soule</span>
-          <br/>
-          <span className="fonction">DEVELOPPEUSE FRONT-END</span>
-        </div>
-        <div className="part2-1">
-          <Image
-            src="/perso1.JPG"
-            width={320}
-            height={350}
-            className="ms-1 mb-5 my-1"
-            alt="c'est moi"
-          />
-          <br/>
-          <span>Ilyas Omar</span>
-          <br/>
-          <span className="fonction">DEVELOPPEUR BACK-END</span>
-        </div>
+      <div className="row" id="part2">
+
+      <MySwiper className="w-50"/>
+
       </div>
     </div>
     <div className="Partie-3">
-      <h2>EXPLOREZ NOTRE GALERIE DE RÉALISATIONS</h2>
+      <div className="container1-2">
+        <h4 className="d-flex justify-content-start gap-3 text-red-1 fs-5">
+          A PROPOS DE NOUS <div className="spanline align-self-center "></div>  
+        </h4>
+      </div>
+      <h2>
+        EXPLOREZ NOTRE GALERIE DE RÉALISATIONS</h2>
       <div className="partie3">
         <div className="partie3-1"> 
           <div className="partie3-2">
@@ -318,9 +295,10 @@ export default function Home() {
         </div>
       </div>
     </div>
+
     <div className="d-flex justify-content-center" id="acc-conc">
       <div className="acc-conc">
-          <h3 className="fs-2 mb-4">Contactez-nous</h3>
+          <h3 className="fs-2 mb-5">Contactez-nous</h3>
           <p>
             Que ce soit pour discuter de vos besoins d'impression 
             numérique, obtenir des informations supplémentaires sur nos 
@@ -329,36 +307,21 @@ export default function Home() {
             préférences :
           </p>
           <div>
-            <div>
-            <Image
-              src="/icon0.png"
-              width={40}
-              height={40}
-              className="me-2 mb-2 mx-0 ms-0"
-            />
-            <span>Centre-Ville, Rue de Berne, Djibouti</span>
+            <div className="mt-5">
+            <FaMapMarkerAlt size={30} className="icon1"/>
+            <span className="fw-bold">Centre-Ville, Rue de Berne, Djibouti</span>
             </div>
             <div>
-            <Image
-              src="/icon9.png"
-              width={25}
-              height={25}
-              className="me-4 mb-3 ms-1"
-            />
-            <span>+253 77 86 11 43 / +253 77 22 63 43</span>
+            <FaPhone size={30}  className="icon1"/>
+            <span className="fw-bold">+253 77 86 11 43 / +253 77 22 63 43</span>
             </div>
             <div>
-            <Image
-              src="/icon8.png"
-              width={25}
-              height={25}
-              className="me-4 ms-1"
-            />
-            <span>safajetdjib@gmail.com</span>
+            <FaEnvelope size={30}  className="icon1"/>
+            <span className="fw-bold">safajetdjib@gmail.com</span>
             </div>
           </div>
       </div>
-      <div className="w-50" id="form">
+      <div className="form_contact">
         <Formulaire isVisible={isNavbarVisible} />
       </div>
     </div>

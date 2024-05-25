@@ -2,6 +2,8 @@ import Image from "next/image";
 import Navbar from "@/components/Navbar/navbar"
 import Footer from "@/components/Footer/footer"
 import Formulaire from "@/components/Formulaire/form"
+import '../styles/propos.css';
+import { FaFacebook, FaLinkedin , FaInstagram } from 'react-icons/fa';
 
 
 const Propos = () => {
@@ -13,9 +15,8 @@ const Propos = () => {
     return (
       <section>
         <Navbar isVisible={isNavbarVisible} />
-
-        <div className="propos-img d-flex justify-content-center">
-          <div className="text-white d-flex flex-column align-items-center justify-content-center w-100 pt-4" id="propos">
+        <div className="propos-img">
+          <div className="text-white ps-5 pt-5" id="propos">
           <h1 className="text-white fw-boldn mb-4 fs-1 text-uppercase">A PROPOS DE NOUS</h1>
           <p className="text-white mb-5 fs-7">
               Explorez notre histoire, notre équipe et notre engagement envers 
@@ -23,7 +24,7 @@ const Propos = () => {
             </p>
           </div>
         </div>
-        <div className="row">
+        <div className="row" id="selection1-propos">
           <div className="col-sm-6" id="img-propo">
             <Image
               src="/accueil4.jpeg"
@@ -63,13 +64,13 @@ const Propos = () => {
               histoire est un témoignage de persévérance, d'innovation et d'engagement 
               envers l'excellence en ligne.
             </p>
-            <a  href="/contact" className="btn btn-dark" role="button" id='btn'>Rejoin nous</a>
+            <a href="/contact" className="btn btn-danter" role="button" id='btn'>Commencer maintenant</a>
           </div>
         </div>
 
         <div className="pro-sec2">
           <h4 className="fs-3">PLONGEZ DANS NOTRE ÉQUIPE: DES EXPERTS UNIS POUR RÉALISER VOS PROJETS WEB</h4>
-          <p className="fs-5">
+          <p>
             Chez A-Coders, nous formons une équipe dynamique et passionnée, unie par notre amour commun pour le web et notre engagement à offrir des solutions numériques de 
             qualité supérieure. Forts d'une diversité de compétences et d'expériences, nous sommes parfaitement positionnés pour relever les défis les plus complexes et donner vie à 
             des projets numériques innovants. Que ce soit dans le développement back-end, le développement front-end, le design graphique ou la maquette web, nous avons les 
@@ -80,19 +81,24 @@ const Propos = () => {
           <div className="propos2">
             <div className="pro2-1">
               <Image
-                src="/perso1.JPG"
+                src="/accueil4.jpeg"
                 width={220}
                 height={250}
                 className="ms-1 mb-5 mt-1"
                 alt="c'est moi"
               />
               <br/>
-              <span>Abdourahman</span>
+              <span className="fs-2 text-body-tertiary fw-bold">Abdourahman</span>
               <br/>
               <span className="fonction">DEVELOPPEUR BACK-END</span>
               <p>
                 Abdirahman partage la passion d'Ilyas pour le développement back-end et est un expert dans l'utilisation de Django. Il apporte une expertise technique précieuse à notre équipe.
               </p>
+              <div className="icon">
+                <a href="lien-de-votre-page-facebook"><FaFacebook className="icon1"/></a>
+                <a href="lien-de-votre-compte-instagram"><FaInstagram className="icon1"/></a>
+                <a href="lien-de-votre-page-linkedin"><FaLinkedin className="icon1"/></a>
+              </div>
             </div>
             <div className="pro2-1">
               <Image
@@ -103,12 +109,17 @@ const Propos = () => {
                 alt="c'est moi"
               />
               <br/>
-              <span>Zakaria Ali</span>
+              <span className="fs-3 text-body-tertiary fw-bold">Zakaria Ali</span>
               <br/>
               <span className="fonction">GRAPHIC DESIGNER MAQUETTISTE</span>
               <p>
                 Zakaria est notre créatif en chef, capable de transformer les idées en designs web inspirants. Avec sa maîtrise d'Adobe XD et de Figma, il crée des maquettes visuellement époustouflantes qui captivent nos clients.
               </p>
+              <div className="icon2">
+                <a href="lien-de-votre-page-facebook"><FaFacebook className="icon1"/></a>
+                <a href="lien-de-votre-compte-instagram"><FaInstagram className="icon1"/></a>
+                <a href="lien-de-votre-page-linkedin"><FaLinkedin className="icon1"/></a>
+              </div>
             </div>
             <div className="pro2-1">
               <Image
@@ -119,12 +130,17 @@ const Propos = () => {
                 alt="c'est moi"
               />
               <br/>
-              <span>Habon Soule</span>
+              <span className="fs-3 text-body-tertiary fw-bold">Habon Soule</span>
               <br/>
               <span className="fonction">DEVELOPPEUSE FRONT-END</span>
               <p>
                 Habon est notre spécialiste du développement front-end, maîtrisant des technologies telles que Next.js, Bootstrap et React.js. Son attention aux détails et son sens de la conception garantissent des interfaces utilisateur exceptionnelles.
               </p>
+              <div className="icon3">
+                <a href="lien-de-votre-page-facebook"><FaFacebook className="icon1"/></a>
+                <a href="lien-de-votre-compte-instagram"><FaInstagram className="icon1"/></a>
+                <a href="lien-de-votre-page-linkedin"><FaLinkedin className="icon1"/></a>
+              </div>
             </div>
             <div className="pro2-1">
               <Image
@@ -135,12 +151,17 @@ const Propos = () => {
                 alt="c'est moi"
               />
               <br/>
-              <span>Ilyas Omar</span>
+              <span className="fs-3 text-body-tertiary fw-bold">Ilyas Omar</span>
               <br/>
-              <span className="fonction">DEVELOPPEUR BACK-END</span>
+              <span className="fonction">FONDATEUR DEVELOPPEUR / BACK-END</span>
               <p>
                 Ilyas est le fondateur d'A-Coders et un développeur back-end chevronné. Il excelle dans l'utilisation de la technologie Django pour créer des applications web robustes et évolutives.
               </p>
+              <div className="icon4">
+                <a href="lien-de-votre-page-facebook"><FaFacebook className="icon1"/></a>
+                <a href="lien-de-votre-compte-instagram"><FaInstagram className="icon1"/></a>
+                <a href="lien-de-votre-page-linkedin"><FaLinkedin className="icon1"/></a>
+              </div>
             </div>
           </div>
         </div>
@@ -177,7 +198,7 @@ const Propos = () => {
               </div>
             </div>
           </div>
-          <div className="w-100">
+          <div className="w-100 container bg-gris-fonce rounded-10px mb-5">
             <Formulaire isVisible={isNavbarVisible} />
           </div>
         </div>

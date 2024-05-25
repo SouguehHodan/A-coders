@@ -17,7 +17,7 @@ export default function Formulaire() {
   };
 
   return (
-    <div className="container pb-5">
+    <div className="container-F">
       <Head>
         <title>Formulaire de Contact</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
@@ -40,7 +40,7 @@ export default function Formulaire() {
           <textarea id="message" className="form-control" placeholder='Décrivez votre message ici' rows="5" value={message} onChange={(e) => setMessage(e.target.value)} />
         </div>
         <div className="w-100 mt-4">
-          <button type="submit" className="btn btn-red p-3 w-100">Envoyer</button>
+          <button type="submit" className="buttonfor p-3 w-100">Envoyer</button>
         </div>
       </form>
     </div>
