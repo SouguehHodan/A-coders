@@ -16,7 +16,6 @@ const Propos = () => {
       <section>
         <Navbar isVisible={isNavbarVisible} />
         <div className="propos-img">
-          
           <div className="text-white ps-5 pt-5" id="propos">
           <h1 className="text-white fw-boldn mb-4 fs-1 text-uppercase">A PROPOS DE NOUS</h1>
           <p className="text-white mb-5 fs-7">
@@ -25,7 +24,7 @@ const Propos = () => {
             </p>
           </div>
         </div>
-        <div className="row">
+        <div className="row" id="selection1-propos">
           <div className="col-sm-6" id="img-propo">
             <Image
               src="/accueil4.jpeg"
@@ -65,13 +64,13 @@ const Propos = () => {
               histoire est un témoignage de persévérance, d'innovation et d'engagement 
               envers l'excellence en ligne.
             </p>
-            <a  href="/contact" className="btn btn-dark" role="button" id='btn'>Rejoin nous</a>
+            <a href="/contact" className="btn btn-danter" role="button" id='btn'>Commencer maintenant</a>
           </div>
         </div>
 
         <div className="pro-sec2">
           <h4 className="fs-3">PLONGEZ DANS NOTRE ÉQUIPE: DES EXPERTS UNIS POUR RÉALISER VOS PROJETS WEB</h4>
-          <p className="fs-5">
+          <p>
             Chez A-Coders, nous formons une équipe dynamique et passionnée, unie par notre amour commun pour le web et notre engagement à offrir des solutions numériques de 
             qualité supérieure. Forts d'une diversité de compétences et d'expériences, nous sommes parfaitement positionnés pour relever les défis les plus complexes et donner vie à 
             des projets numériques innovants. Que ce soit dans le développement back-end, le développement front-end, le design graphique ou la maquette web, nous avons les 
@@ -82,14 +81,14 @@ const Propos = () => {
           <div className="propos2">
             <div className="pro2-1">
               <Image
-                src="/perso1.JPG"
+                src="/accueil4.jpeg"
                 width={220}
                 height={250}
                 className="ms-1 mb-5 mt-1"
                 alt="c'est moi"
               />
               <br/>
-              <span className="fs-3 text-body-tertiary fw-bold">Abdourahman</span>
+              <span className="fs-2 text-body-tertiary fw-bold">Abdourahman</span>
               <br/>
               <span className="fonction">DEVELOPPEUR BACK-END</span>
               <p>

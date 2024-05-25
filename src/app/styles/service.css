@@ -24,10 +24,16 @@
     margin-top: 10%;
     margin-bottom: 10%;
   }
-  .btn{
+  #btn{
     background-color: #FF1F1F;
-    width: 20%;
+    width: auto;
     color: white;
+  }
+  #btn:hover{
+    background-color: transparent;
+    color: #FF1F1F;
+    font-weight: bold;
+    border-left: 2px solid #FF1F1F;
   }
 
   @media screen and (max-width: 500px){

@@ -28,6 +28,14 @@
     top: 135vh;
     left: 37vh;
   }
+  #selection1-propos{
+    width: 100%;
+    height: 100vh;
+    padding-top: 5%;
+    background-image:linear-gradient(rgba(67, 70, 80, 0.8),rgba(26, 26, 27, 0.4)),url(../../../public/accueil1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
  
   
   @media screen and (max-width: 500px){
@@ -57,6 +65,9 @@
     }
     #propos-sect a{
       margin-top: 8%;
+    }
+    #propos-sect p{
+      font-size: 15px;
     }
   }
   
@@ -97,8 +108,14 @@
     width: 40%;
   }
   .pro-sec2 p{
+    font-size: 18px;
     width: 90%;
     margin-bottom: 5%;
+  }
+  #btn{
+    background-color: #FF1F1F;
+    width: auto;
+    color: white;
   }
   .propos2{
     display: flex;
@@ -117,7 +134,7 @@
     font-size: 50px;
   }
   .fonction{
-    margin: 5%;
+    margin-top: 10%;
   }
   
   @media screen and (max-width: 500px){
