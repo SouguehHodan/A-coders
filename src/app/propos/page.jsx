@@ -95,9 +95,9 @@ const Propos = () => {
                 Abdirahman partage la passion d'Ilyas pour le développement back-end et est un expert dans l'utilisation de Django. Il apporte une expertise technique précieuse à notre équipe.
               </p>
               <div className="icon">
-                <a href="lien-de-votre-page-facebook"><FaFacebook /></a>
-                <a href="lien-de-votre-compte-instagram"><FaInstagram /></a>
-                <a href="lien-de-votre-page-linkedin"><FaLinkedin /></a>
+                <a href="lien-de-votre-page-facebook"><FaFacebook className="icon1"/></a>
+                <a href="lien-de-votre-compte-instagram"><FaInstagram className="icon1"/></a>
+                <a href="lien-de-votre-page-linkedin"><FaLinkedin className="icon1"/></a>
               </div>
             </div>
             <div className="pro2-1">
@@ -115,10 +115,10 @@ const Propos = () => {
               <p>
                 Zakaria est notre créatif en chef, capable de transformer les idées en designs web inspirants. Avec sa maîtrise d'Adobe XD et de Figma, il crée des maquettes visuellement époustouflantes qui captivent nos clients.
               </p>
-              <div className="icon">
-                <a href="lien-de-votre-page-facebook"><FaFacebook /></a>
-                <a href="lien-de-votre-compte-instagram"><FaInstagram /></a>
-                <a href="lien-de-votre-page-linkedin"><FaLinkedin /></a>
+              <div className="icon2">
+                <a href="lien-de-votre-page-facebook"><FaFacebook className="icon1"/></a>
+                <a href="lien-de-votre-compte-instagram"><FaInstagram className="icon1"/></a>
+                <a href="lien-de-votre-page-linkedin"><FaLinkedin className="icon1"/></a>
               </div>
             </div>
             <div className="pro2-1">
@@ -136,10 +136,10 @@ const Propos = () => {
               <p>
                 Habon est notre spécialiste du développement front-end, maîtrisant des technologies telles que Next.js, Bootstrap et React.js. Son attention aux détails et son sens de la conception garantissent des interfaces utilisateur exceptionnelles.
               </p>
-              <div className="icon">
-                <a href="lien-de-votre-page-facebook"><FaFacebook /></a>
-                <a href="lien-de-votre-compte-instagram"><FaInstagram /></a>
-                <a href="lien-de-votre-page-linkedin"><FaLinkedin /></a>
+              <div className="icon3">
+                <a href="lien-de-votre-page-facebook"><FaFacebook className="icon1"/></a>
+                <a href="lien-de-votre-compte-instagram"><FaInstagram className="icon1"/></a>
+                <a href="lien-de-votre-page-linkedin"><FaLinkedin className="icon1"/></a>
               </div>
             </div>
             <div className="pro2-1">
@@ -157,10 +157,10 @@ const Propos = () => {
               <p>
                 Ilyas est le fondateur d'A-Coders et un développeur back-end chevronné. Il excelle dans l'utilisation de la technologie Django pour créer des applications web robustes et évolutives.
               </p>
-              <div className="icon">
-                <a href="lien-de-votre-page-facebook"><FaFacebook /></a>
-                <a href="lien-de-votre-compte-instagram"><FaInstagram /></a>
-                <a href="lien-de-votre-page-linkedin"><FaLinkedin /></a>
+              <div className="icon4">
+                <a href="lien-de-votre-page-facebook"><FaFacebook className="icon1"/></a>
+                <a href="lien-de-votre-compte-instagram"><FaInstagram className="icon1"/></a>
+                <a href="lien-de-votre-page-linkedin"><FaLinkedin className="icon1"/></a>
               </div>
             </div>
           </div>
