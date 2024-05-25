@@ -1,22 +1,19 @@
-
 import Image from "next/image";
 import Navbar from "@/components/Navbar/navbar"
 import Footer from "@/components/Footer/footer"
 import Formulaire from "@/components/Formulaire/form"
-import ScrollAnimation from '@/components/animation/animation';
-
 
 const Contact = () => {
 
   const isNavbarVisible = true;
   const isFooterVisible = true;
   const isFormVisible = true;
-
+  
     return (
       <section>
         <Navbar isVisible={isNavbarVisible} />
 
-        <ScrollAnimation name="section1">
+        
         <div className="propos-img d-flex justify-content-center" id="section1">
           <div className="text-white d-flex flex-column align-items-center justify-content-center w-100 pt-4" id="propos">
             <h1 className="text-white fw-boldn mb-4 fs-1 text-uppercase">parlons ensemble</h1>
@@ -25,8 +22,7 @@ const Contact = () => {
             </p>
           </div>
         </div>
-        </ScrollAnimation>
-        <ScrollAnimation name="section2">
+        
         <div className=" container w-100 d-flex flex-wrap gap-5" id="section2">
           <div className="acc-conc">
             <h3 className="fs-1 mb-4">Contactez-nous</h3>
@@ -71,7 +67,6 @@ const Contact = () => {
             <Formulaire isVisible={isNavbarVisible} />
            </div>
         </div>
-        </ScrollAnimation>
         <Footer isVisible={isNavbarVisible} />
       </section>
         )
