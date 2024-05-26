@@ -47,18 +47,18 @@ const Propos = () => {
                     /> 
                     Développement web
                 </h1>
-                <p className="mt-5">
-                    Notre service de développement web vous offre une expertise <br />
-                    technique de pointe pour créer des sites web sur mesure qui <br />
-                    captivent et convertissent. De la conception initiale à la mise <br />
-                    en ligne, notre équipe de développeurs expérimentés travaille <br />
-                    en étroite collaboration avec vous pour donner vie à vos idées <br />
-                    en ligne. Que vous ayez besoin d'un site d'entreprise <br />
-                    professionnel, d'une boutique en ligne convaincante ou d'une <br />
-                    plateforme interactive engageante, nous sommes là pour vous <br />
-                    guider à chaque étape du processus. Grâce à notre approche <br />
-                    centrée sur le client et à notre engagement envers l'excellence <br />
-                    technique, nous sommes votre partenaire idéal pour réussir <br />
+                <p className="servi1-p">
+                    Notre service de développement web vous offre une expertise 
+                    technique de pointe pour créer des sites web sur mesure qui 
+                    captivent et convertissent. De la conception initiale à la mise
+                    en ligne, notre équipe de développeurs expérimentés travaille 
+                    en étroite collaboration avec vous pour donner vie à vos idées 
+                    en ligne. Que vous ayez besoin d'un site d'entreprise 
+                    professionnel, d'une boutique en ligne convaincante ou d'une 
+                    plateforme interactive engageante, nous sommes là pour vous 
+                    guider à chaque étape du processus. Grâce à notre approche 
+                    centrée sur le client et à notre engagement envers l'excellence 
+                    technique, nous sommes votre partenaire idéal pour réussir 
                     sur le web.
                 </p>
                 <a href="/contact" className="btn btn-red" role="button" id='btn'>Commencer maintenant</a>
@@ -114,19 +114,19 @@ const Propos = () => {
                     /> 
                     Maintenance d’un site web
                 </h1>
-                <p className="mt-5">
-                    Notre service de maintenance de site web vous assure une <br />
-                    tranquillité d'esprit totale en veillant au bon fonctionnement <br />
-                    continu de votre présence en ligne. Nous prenons en charge <br />
-                    toutes les tâches techniques nécessaires, y compris les mises à <br />
-                    jour régulières, la surveillance de la sécurité et la résolution <br />
-                    des problèmes potentiels, afin que vous puissiez vous <br />
-                    concentrer sur le développement de votre entreprise. Avec des <br />
-                    plans de maintenance flexibles et adaptés à vos besoins, nous <br />
-                    sommes là pour protéger votre site web et garantir une <br />
-                    expérience utilisateur optimale pour vos visiteurs. Optez pour <br />
-                    notre service de maintenance de site web et laissez-nous <br />
-                    prendre soin de votre site, pendant que vous vous concentrez <br />
+                <p className="servi1-p">
+                    Notre service de maintenance de site web vous assure une
+                    tranquillité d'esprit totale en veillant au bon fonctionnement 
+                    continu de votre présence en ligne. Nous prenons en charge 
+                    toutes les tâches techniques nécessaires, y compris les mises à 
+                    jour régulières, la surveillance de la sécurité et la résolution 
+                    des problèmes potentiels, afin que vous puissiez vous 
+                    concentrer sur le développement de votre entreprise. Avec des 
+                    plans de maintenance flexibles et adaptés à vos besoins, nous 
+                    sommes là pour protéger votre site web et garantir une 
+                    expérience utilisateur optimale pour vos visiteurs. Optez pour 
+                    notre service de maintenance de site web et laissez-nous 
+                    prendre soin de votre site, pendant que vous vous concentrez 
                     sur la croissance de votre activité.
                 </p>
                 <a href="/contact" className="btn btn-red" role="button" id='btn'>Protégez votre site web aujourd'hui</a>
@@ -155,18 +155,18 @@ const Propos = () => {
                     Design Web
                 </h1>
                 <p className="mt-5">
-                    Notre service de conception web allie esthétique et <br />
-                    fonctionnalité pour créer des expériences en ligne captivantes. <br />
-                    Grâce à une approche centrée sur l'utilisateur et à une maîtrise <br />
-                    des dernières tendances en matière de design, nous <br />
-                    concevons des interfaces utilisateur intuitives qui reflètent <br />
-                    l'identité de votre marque et attirent votre public cible. Que <br />
-                    vous recherchiez une refonte complète de votre site existant <br />
-                    ou une création à partir de zéro, notre équipe de designers <br />
-                    talentueux est là pour donner vie à votre vision. Avec une <br />
-                    attention méticuleuse aux détails et un engagement envers <br />
-                    l'excellence esthétique, nous sommes votre partenaire idéal <br />
-                    pour transformer vos idées en designs web époustouflants. <br />
+                    Notre service de conception web allie esthétique et
+                    fonctionnalité pour créer des expériences en ligne captivantes. 
+                    Grâce à une approche centrée sur l'utilisateur et à une maîtrise 
+                    des dernières tendances en matière de design, nous 
+                    concevons des interfaces utilisateur intuitives qui reflètent 
+                    l'identité de votre marque et attirent votre public cible. Que
+                    vous recherchiez une refonte complète de votre site existant 
+                    ou une création à partir de zéro, notre équipe de designers 
+                    talentueux est là pour donner vie à votre vision. Avec une 
+                    attention méticuleuse aux détails et un engagement envers 
+                    l'excellence esthétique, nous sommes votre partenaire idéal 
+                    pour transformer vos idées en designs web époustouflants.
                 </p>
                 <a href="/contact" className="btn btn-red" role="button" id='btn'>Explorez nos créations</a>
             </div>
@@ -194,16 +194,16 @@ const Propos = () => {
                     Service SEO (Optimisation pour les moteurs de recherche)
                 </h1>
                 <p className="mt-5">
-                Notre service SEO (Optimisation pour les moteurs de <br />
-                recherche) vise à améliorer la visibilité de votre site web dans <br />
-                les résultats de recherche organiques. Grâce à une <br />
-                combinaison de stratégies de référencement on-page et offpage, <br />
-                nous travaillons à augmenter le classement de votre site <br />
-                web sur les moteurs de recherche tels que Google, Bing et <br />
-                Yahoo. Que vous cherchiez à augmenter le trafic vers votre site <br />
-                web, à améliorer votre positionnement par rapport à vos <br />
-                concurrents ou à attirer des clients potentiels, notre équipe <br />
-                expérimentée en SEO est là pour vous aider à atteindre vos <br />
+                Notre service SEO (Optimisation pour les moteurs de 
+                recherche) vise à améliorer la visibilité de votre site web dans 
+                les résultats de recherche organiques. Grâce à une 
+                combinaison de stratégies de référencement on-page et offpage, 
+                nous travaillons à augmenter le classement de votre site
+                web sur les moteurs de recherche tels que Google, Bing et 
+                Yahoo. Que vous cherchiez à augmenter le trafic vers votre site 
+                web, à améliorer votre positionnement par rapport à vos 
+                concurrents ou à attirer des clients potentiels, notre équipe 
+                expérimentée en SEO est là pour vous aider à atteindre vos
                 objectifs en ligne.
                 </p>
                 <a href="/contact" className="btn btn-red" role="button" id='btn'>Boostez votre visibilité</a>
@@ -231,17 +231,17 @@ const Propos = () => {
                     Service d'Analyse de Données
                 </h1>
                 <p className="mt-5">
-                Notre service d'analyse de données offre des insights précieux <br />
-                pour guider vos décisions commerciales et optimiser vos <br />
-                performances en ligne. En utilisant des outils avancés <br />
-                d'analyse et de suivi, nous collectons et interprétons les <br />
-                données clés de votre site web, des médias sociaux et d'autres <br />
-                sources pertinentes. Que vous recherchiez à comprendre le <br />
-                comportement de vos utilisateurs, à identifier les tendances <br />
-                du marché ou à évaluer l'efficacité de vos campagnes <br />
-                marketing, notre équipe d'analystes de données expérimentés <br />
-                est là pour vous fournir les informations nécessaires pour <br />
-                prendre des décisions éclairées et stratégiques. <br />
+                Notre service d'analyse de données offre des insights précieux
+                pour guider vos décisions commerciales et optimiser vos 
+                performances en ligne. En utilisant des outils avancés 
+                d'analyse et de suivi, nous collectons et interprétons les
+                données clés de votre site web, des médias sociaux et d'autres 
+                sources pertinentes. Que vous recherchiez à comprendre le
+                comportement de vos utilisateurs, à identifier les tendances 
+                du marché ou à évaluer l'efficacité de vos campagnes
+                marketing, notre équipe d'analystes de données expérimentés 
+                est là pour vous fournir les informations nécessaires pour
+                prendre des décisions éclairées et stratégiques.
                 </p>
                 <a href="/contact" className="btn btn-red" role="button" id='btn'>Optimisez vos performances maintenant</a>
             </div>

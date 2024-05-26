@@ -23,6 +23,10 @@
   background-color: #F6F3F3;
   margin-top: 10%;
   margin-bottom: 10%;
+  padding: 5%;
+}
+.servi1-p{
+  border: 2px solid black;
 }
 #btn{
   background-color: #FF1F1F;
