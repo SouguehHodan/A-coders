@@ -26,15 +26,6 @@
     width: auto;
   }
 }
-
-.spanline{
-  height: 2px;
-  width: 50px;
-  background-color: #FF1F1F;
-  display: inline-block;
-  color: #FF1F1F;
-}
-
 .accueil-img{
   width: 100%;
   height: 100vh;
@@ -42,50 +33,25 @@
   background-image:linear-gradient(rgba(67, 70, 80, 0.8),rgba(26, 26, 27, 0.4)),url(../../public/accueil1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  clip-path:polygon(30% 0%, 70% 0%, 100% 0, 100% 94%, 50% 98%, 0 94%, 0 0);
-}
-.btn1{
-  background-color: #FF1F1F;
-  border-radius: 0;
-  width: 20%;
-  height: 45px;
+ /* clip-path:polygon(30% 0%, 70% 0%, 100% 0, 100% 94%, 50% 98%, 0 94%, 0 0); */
 }
 #accueil{
-  position: absolute;
+  position:absolute;
   top: 30%;
-  left: 15%;
-  text-align: center;
+  left: 0%;
 }
 #accueil h1{
-  width: 73%;
+  width: 50%;
+  font-size: 40px;
 }
 #accueil p{
   width: 53%;
-  margin-left: 9%;
 }
-.container1{
-  color: #FF1F1F;
-  position: relative;
-  right: 14%;
-  font-size: 25px;
-  margin-bottom: 2%;
+#btn-outline-danger{
+  width: 30%;
+  height: 35px;
+  font: 1em sans-serif;
 }
-.container1-2{
-  color: #FF1F1F;
-  font-weight: bold;
-  margin-bottom: 2%;
-}
-.acc-colo{
-  color: #FF1F1F;
-}
-.button2{
-  margin-right: 25%;
-  margin-top: 15px;
-}
-.button2 button{
-  width: auto;
-  border-radius: 0;
-} 
 
 @media screen and (max-width: 500px){
   .accueil-img{
@@ -95,145 +61,55 @@
   #accueil{
     top: 10%;
   }
-  .container1{
-    width: 100%;
-    font-size: 0.6rem;
-  }
-  #accueil h1{
-    font-size: 25px;
-  }
-  #accueil p{
-    font-size: 14px;
-    width: 70%;
-  }
-  #btn{
-    width: auto;
-  }
-  #button{
-    margin-bottom: 5%;
-    margin-left: 5%;
-  }
+}
+
+#spanline1{
+  height: 2px;
+  width: 50px;
+  margin-bottom: -10px;
+  margin-right: 80px;
+  background-color: #FF1F1F;
+  display: inline-block;
+  color: #FF1F1F;
+}
+#spanline2{
+  height: 2px;
+  width: 50px;
+  margin-left: 25px;
+  background-color: #FF1F1F;
+  display: inline-block;
+  color: #FF1F1F;
+}
+.spantext{
+  margin-left: 10px;
+  font-size: 20px;
 }
 
 .partie2{
   width: 100%;
   margin-top: 10%;
-  margin-left: 10px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.section1{
-  position: relative;
-}
-.section-img{
-  position: absolute;
-  left: 35vh;
-  top: 3vh;
-}
-.section2{
-  width: 50%;
-  margin-left: 14%;
-  font-size: 1rem;
-}
-.title2{
-  width: 33rem;
-  font-size: 13px;
-  padding-left: 10PX;
-  border-left: 2px solid #FF1F1F;
-}
-
-@media screen and (max-width: 500px){
-  .section1{
-    display: none;
-  }
-  .section2{
-    width: 100%;
-    margin-left: 15%;
-    font-size: 1rem;
-  }
-  .title2{
-    width: 100%;
-  }
-}
-@media screen and (max-width: 1350px){
-  .section-img{
-    display: none;
-  }  
-}
-.section3{
-  margin-top: 15%;
-  height: 140VH;
-  padding: 8%;
-  background-color:  #F6F3F3;
-}
-.section3 h3{
-  width: 55%;
-  margin-left: 25%;
-  margin-bottom: 8%;
   text-align: center;
 }
-.section3-1{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  /* background-color: rgba(25, 64, 181, 0.6); */
-}
-.section3-2{
-  display: flex;
-  flex-direction: row;
-  /* background-color: rgba(25, 64, 181, 0.6); */
-}
-#section3-3{
-  height: 35VH;
-  width: 46VH;
-  padding: 15PX;
-  background-color: white;
-  border-radius: 10PX;
-  margin: 20px;
-}
-.section3-3 p{
-  font-size: 16PX;
-  margin: 5%;
-}
-.section3-3 h5{
-  color: #FF1F1F;
-}
-.icon{
-  font-size: 35PX;
-  font-weight: bold;
-  color: #FF1F1F;
-}
-.icon1{
-  font-weight: bold;
-  color: #FF1F1F;
-  margin: 2%;
+.text1{
+  margin-top: 15fPX;
 }
 
-@media screen and (max-width: 500px){
-  .section3{
-    height: 100%;
-  }
-  .section3 h3{
-    font-size: 20px;
-  }
-  .section3-2{
-    display: flex;
-    flex-direction: column;
-    /* background-color: rgba(25, 64, 181, 0.6); */
-  }
-  #section3-3{
+.partie2-1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card{
+  width: 100vh;
+  height: 20vh;
+}
+@media screen and (max-width: 1000px){
+  .partie2-1{
+    display: inline;
     width: 100%;
-    margin-left: 0;
-    font-size: 14px;
   }
-  .section2{
-    width: 100%;
-    margin-left: 15%;
-    font-size: 1rem;
-  }
-  .title2{
-    width: 100%;
+  #card{
+    margin-bottom: 20px;
   }
 }
 
